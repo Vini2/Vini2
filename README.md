@@ -2,7 +2,7 @@
 
 I’m Vijini Mallawaarachchi—I’m a software engineer, a researcher, a hodophile and a blogger.
 
-I’m a Ph.D. student at the [Research School of Computer Science](https://cs.anu.edu.au/) at the [Australian National University](https://www.anu.edu.au/) in Canberra, Australia.
+I’m a Ph.D. student at the [School of Computing](https://cs.anu.edu.au/) at the [Australian National University](https://www.anu.edu.au/) in Canberra, Australia.
 
 - 🔭 I’m currently working on metagenomics
 - 🌱 I’m currently learning graph algorithms
