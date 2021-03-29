@@ -7,7 +7,8 @@ My current research work is focused on algorithms and computational models relat
 - 🔭 I’m currently working on metagenomics binning
 - 🌱 I’m currently learning graph algorithms
 - 📫 How to reach me: viji.mallawaarachchi@gmail.com
-- 🏠 Check out my personal website: (vijinimallawaarachchi.com)[https://vijinimallawaarachchi.com/]
+- 🏠 Check out my personal website: https://vijinimallawaarachchi.com
+- 📝 Check out my Medium Blog: https://medium.com/@vijini
 
 ![Vini2's github stats](https://github-readme-stats.vercel.app/api?username=Vini2&show_icons=true&theme=buefy)
 
