@@ -1,12 +1,13 @@
 ### Hi there 👋
 
-I’m Vijini Mallawaarachchi—I’m a software engineer, a researcher, a hodophile and a blogger.
+I’m Vijini Mallawaarachchi—I’m a Ph.D. student at the [School of Computing](https://cs.anu.edu.au/) at the [Australian National University](https://www.anu.edu.au/) in Canberra, Australia. I enjoy writing code, reading and blogging.
 
-I’m a Ph.D. student at the [School of Computing](https://cs.anu.edu.au/) at the [Australian National University](https://www.anu.edu.au/) in Canberra, Australia.
+My current research work is focused on algorithms and computational models related to metagenomics binning. Metagenomics involves the study of various genetic material obtained from the genomes found in microbial communities. A microbial community can contain a large number of organisms. My work focuses on developing methods and tools to investigate the taxonomic structure of a given metagenomic sample.
 
-- 🔭 I’m currently working on metagenomics
+- 🔭 I’m currently working on metagenomics binning
 - 🌱 I’m currently learning graph algorithms
 - 📫 How to reach me: viji.mallawaarachchi@gmail.com
+- 🏠 Check out my personal website: (vijinimallawaarachchi.com)[https://vijinimallawaarachchi.com/]
 
 ![Vini2's github stats](https://github-readme-stats.vercel.app/api?username=Vini2&show_icons=true&theme=buefy)
 
@@ -16,6 +17,4 @@ I’m a Ph.D. student at the [School of Computing](https://cs.anu.edu.au/) at th
 Here are some ideas to get you started:
 
 -->
-
-
 
