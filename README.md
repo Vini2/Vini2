@@ -10,6 +10,14 @@ My current research work is focused on algorithms and computational models relat
 - 🏠 Check out my personal website: https://vijinimallawaarachchi.com
 - 📝 Check out my Medium Blog: https://medium.com/@vijini
 
+### Repo Highlights
+
+#### [GraphBin: Refined Binning of Metagenomic Contigs using Assembly Graphs](https://github.com/Vini2/GraphBin)
+First tool to make use of assembly graphs to refine binning results from existing metagenomics contig-binning tools.
+
+#### [GraphBin2: Refined and Overlapped Binning of Metagenomic Contigs Using Assembly Graphs](https://github.com/Vini2/GraphBin2)
+Next generation og GraphBin that refines binning results from existing metagenomics contig-binning tools using assembly graphs. GraphBin2 also assigns contigs to multiple bins if they are shared between different species.
+
 ![Vini2's github stats](https://github-readme-stats.vercel.app/api?username=Vini2&show_icons=true&theme=buefy)
 
 <!--
