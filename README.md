@@ -18,6 +18,9 @@ First tool to make use of assembly graphs to refine binning results from existin
 #### [GraphBin2: Refined and Overlapped Binning of Metagenomic Contigs Using Assembly Graphs](https://github.com/Vini2/GraphBin2)
 Next generation og GraphBin that refines binning results from existing metagenomics contig-binning tools using assembly graphs. GraphBin2 also assigns contigs to multiple bins if they are shared between different species.
 
+#### [MetaCoAG: Binning Metagenomic Contigs via Composition, Coverage and Assembly Graphs](https://github.com/Vini2/MetaCoAG)
+First stand-alone metagenomic contig-binning tool that makes use of assembly graphs apart from composition and coverage information for binning.
+
 ![Vini2's github stats](https://github-readme-stats.vercel.app/api?username=Vini2&show_icons=true&theme=buefy)
 
 <!--
