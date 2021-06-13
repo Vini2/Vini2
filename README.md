@@ -10,6 +10,8 @@ My current research work is focused on algorithms and computational models relat
 - 🏠 Check out my personal website: https://vijinimallawaarachchi.com
 - 📝 Check out my Medium Blog: https://medium.com/@vijini
 
+![](https://komarev.com/ghpvc/?username=Vini2)
+
 ### Repo Highlights
 
 #### [GraphBin: Refined Binning of Metagenomic Contigs using Assembly Graphs](https://github.com/Vini2/GraphBin)
