@@ -8,7 +8,7 @@ My current research work is focused on algorithms and computational models relat
 - 🌱 I’m currently learning graph algorithms
 - 📫 How to reach me: viji.mallawaarachchi@gmail.com
 - 🏠 Check out my personal website: https://vijinimallawaarachchi.com
-- 📝 Check out my Medium Blog: https://medium.com/@vijini
+- 📝 Check out my Medium Blog: https://vijini.medium.com/
 
 ### Repo Highlights
 
