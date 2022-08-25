@@ -5,7 +5,7 @@ I’m Vijini Mallawaarachchi—I’m a Ph.D. candidate at the [School of Computi
 My current research work is focused on algorithms and computational models related to metagenomics binning. Metagenomics involves the study of various genetic material obtained from the genomes found in microbial communities. A microbial community can contain a large number of organisms. My work focuses on developing methods and tools to investigate the taxonomic structure of a given metagenomic sample.
 
 - 🔭 I’m currently working on resolving bacteriophage genomes
-- 🌱 I’m currently learning graph algorithms and graph machine learning techniques
+- 🌱 I’m currently learning graph algorithms and flow decomposition techniques
 - 📫 How to reach me: viji.mallawaarachchi@gmail.com
 - 🏠 Check out my personal website: https://vijinimallawaarachchi.com
 - 📝 Check out my Medium Blog: https://vijini.medium.com/
