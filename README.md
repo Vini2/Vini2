@@ -1,6 +1,6 @@
 ### Hi there 👋
 
-I’m Vijini Mallawaarachchi—I’m a Research Associate at [Flinders University](https://www.flinders.edu.au/). I enjoy writing code, reading and blogging.
+I’m Vijini Mallawaarachchi—I’m a Research Associate at [Flinders University](https://www.flinders.edu.au/). I enjoy developing algorithms, writing code, reading and blogging.
 
 My current research work is focused on algorithms and computational models related to metagenomics binning. Metagenomics involves the study of various genetic material obtained from the genomes found in microbial communities. A microbial community can contain a large number of organisms. My work focuses on developing methods and tools to investigate the taxonomic structure of a given metagenomic sample.
 
