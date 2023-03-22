@@ -1,10 +1,12 @@
 ### Hi there 👋
 
-I’m Vijini Mallawaarachchi—I’m a Research Associate at the [Flinders Accelerator for Microbiome Exploration](https://fame.flinders.edu.au/), [Flinders University](https://www.flinders.edu.au/). I enjoy developing algorithms, writing code, reading and blogging.
+I’m Vijini Mallawaarachchi—I’m a Research Associate at the [Flinders Accelerator for Microbiome Exploration](https://fame.flinders.edu.au/), [Flinders University](https://www.flinders.edu.au/).
 
-My current research work is focused on algorithms and computational models related to metagenomics binning. Metagenomics involves the study of various genetic material obtained from the genomes found in microbial communities. A microbial community can contain a large number of organisms. My work focuses on developing methods and tools to investigate the taxonomic structure of a given metagenomic sample.
+I enjoy developing algorithms, writing code, reading and blogging.
 
-- 🔭 I’m currently working on resolving bacteriophage genomes
+My current research work is focused on algorithms and computational models related to construction of metagenome-assembled genomes (MAGs). Metagenomics involves the study of various genetic material obtained from the genomes found in microbial communities. A microbial community can contain a large number of organisms. My work focuses on developing methods and tools to investigate the taxonomic structure of a given metagenomic sample.
+
+- 🔭 I’m currently working on computational methods to resolve bacteriophage genomes
 - 🌱 I’m currently learning graph algorithms and flow decomposition techniques
 - 📫 How to reach me: viji.mallawaarachchi@gmail.com
 - 🏠 Check out my personal website: https://vijinimallawaarachchi.com
