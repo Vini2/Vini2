@@ -7,7 +7,7 @@ I enjoy developing algorithms, writing code, reading and blogging.
 My current research work is focused on algorithms and computational models related to construction of metagenome-assembled genomes (MAGs). Metagenomics involves the study of various genetic material obtained from the genomes found in microbial communities. A microbial community can contain a large number of organisms. My work focuses on developing methods and tools to investigate the taxonomic structure of a given metagenomic sample.
 
 - 🔭 I’m currently working on computational methods to resolve viral genomes
-- 🌱 I’m currently learning flow decomposition techniques and graph machine learning
+- 🌱 I’m currently exploring flow decomposition and graph machine learning techniques
 - 📫 How to reach me: viji.mallawaarachchi@gmail.com
 - 🏠 Check out my personal website: https://vijinimallawaarachchi.com
 - 📝 Check out my Medium Blog: https://vijini.medium.com/
