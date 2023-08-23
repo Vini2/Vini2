@@ -1,6 +1,6 @@
 ### Hi there 👋
 
-I’m Vijini Mallawaarachchi—I’m a Research Associate at the [Flinders Accelerator for Microbiome Exploration](https://fame.flinders.edu.au/), [Flinders University](https://www.flinders.edu.au/).
+I’m Vijini Mallawaarachchi—I’m a Research Associate in Bioinformatics at the [Flinders Accelerator for Microbiome Exploration](https://fame.flinders.edu.au/), [Flinders University](https://www.flinders.edu.au/).
 
 I enjoy developing algorithms, writing code, reading and blogging.
 
