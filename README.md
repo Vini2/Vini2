@@ -12,16 +12,16 @@ My current research work is focused on algorithms and computational models relat
 
 ### Repo Highlights
 
-#### [GraphBin: Refined Binning of Metagenomic Contigs using Assembly Graphs](https://github.com/Vini2/GraphBin)
+#### [✨🧬 GraphBin: Refined Binning of Metagenomic Contigs using Assembly Graphs](https://github.com/Vini2/GraphBin)
 The first automated tool to make use of assembly graphs to refine binning results from existing metagenomic contig-binning tools.
 
-#### [GraphBin2: Refined and Overlapped Binning of Metagenomic Contigs Using Assembly Graphs](https://github.com/Vini2/GraphBin2)
+#### [☯️🧬 GraphBin2: Refined and Overlapped Binning of Metagenomic Contigs Using Assembly Graphs](https://github.com/Vini2/GraphBin2)
 Next generation of GraphBin that refines binning results from existing metagenomic contig-binning tools using assembly graphs. GraphBin2 also assigns contigs to multiple bins if they are shared between different species.
 
-#### [MetaCoAG: Binning Metagenomic Contigs via Composition, Coverage and Assembly Graphs](https://github.com/Vini2/MetaCoAG)
+#### [🚦🧬 MetaCoAG: Binning Metagenomic Contigs via Composition, Coverage and Assembly Graphs](https://github.com/Vini2/MetaCoAG)
 The first stand-alone metagenomic contig-binning tool that makes use of assembly graphs apart from composition and coverage information for binning.
 
-#### [Phables: from fragmented assemblies to high-quality bacteriophage genomes](https://github.com/Vini2/phables)
+#### [🫧🧬 Phables: from fragmented assemblies to high-quality bacteriophage genomes](https://github.com/Vini2/phables)
 Resolving high-quality bacteriophage genomes from fragmented assemblies of viral metagenomic data using graph algorithms and flow decomposition techniques.
 
 <!--
