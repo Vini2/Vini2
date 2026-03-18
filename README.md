@@ -22,7 +22,7 @@ Next generation of GraphBin that refines binning results from existing metagenom
 The first stand-alone metagenomic contig-binning tool that makes use of assembly graphs apart from composition and coverage information for binning.
 
 #### [🫧🧬 Phables: from fragmented assemblies to high-quality bacteriophage genomes](https://github.com/Vini2/phables)
-Resolving high-quality bacteriophage genomes from fragmented assemblies of viral metagenomic data using graph algorithms and flow decomposition techniques.
+The first tool to resolve high-quality bacteriophage genomes from fragmented assemblies of viral metagenomic data using graph algorithms and flow decomposition techniques.
 
 <!--
 ![Vini2's github stats](https://github-readme-stats.vercel.app/api?username=Vini2&show_icons=true&theme=buefy)
