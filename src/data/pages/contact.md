@@ -13,7 +13,7 @@ order: 7
 <p class="meta">Direct</p>
 <h3>Email</h3>
 <p>viji.mallawaarachchi@gmail.com</p>
-<a href="mailto:viji.mallawaarachchi@gmail.com" target="_blank" rel="noreferrer">Send email</a>
+<a href="mailto:viji.mallawaarachchi1@gmail.com" target="_blank" rel="noreferrer">Send email</a>
 </article>
 <article class="item-card">
 <p class="meta">Code</p>
