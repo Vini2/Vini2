@@ -1,0 +1,60 @@
+---
+import SiteLayout from '../layouts/SiteLayout.astro'
+import { getPageEntry, profile } from '../data/site-content/index.js'
+import { pagePath } from '../utils/routes.js'
+
+const home = getPageEntry('home')
+const about = getPageEntry('about')
+const HomeContent = home.Content
+const AboutContent = about.Content
+---
+
+<SiteLayout title="Vijini Mallawaarachchi" activeSlug="home">
+  <article class="home-grid">
+    <section class="hero">
+      <div class="hero-copy">
+        <h1 class="hero-name" aria-label="Vijini G. Mallawaarachchi">
+          <span>Vijini G.</span>
+          <span>Mallawaarachchi</span>
+        </h1>
+        <p class="hero-title">
+          <a
+            href="https://www.flinders.edu.au/people/vijini.mallawaarachchi"
+            target="_blank"
+            rel="noreferrer"
+          >
+            {profile.role}
+          </a>
+        </p>
+        <p class="lede">
+          Hi, I am Vijini Mallawaarachchi. I am a researcher, a hodophile, and
+          a blogger working at the intersection of algorithms, metagenomics,
+          scientific software, and visual analytics.
+        </p>
+        <p class="erdos-note">
+          My
+          <a
+            href="https://mathscinet.ams.org/mathscinet/freetools/collab-dist?source=1472674&target=189017"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Erdös Number
+          </a>
+          is 4.
+        </p>
+        <div class="hero-actions">
+          <a href={pagePath('research')}>Research</a>
+          <a href={pagePath('publications')}>Publications</a>
+        </div>
+      </div>
+      <div class="hero-portrait">
+        <img src={profile.image} alt={profile.name} />
+      </div>
+    </section>
+
+    <section class="intro-columns markdown-content" aria-label="Biography and current work">
+      <AboutContent />
+      <HomeContent />
+    </section>
+  </article>
+</SiteLayout>

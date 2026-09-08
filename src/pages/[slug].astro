@@ -1,0 +1,28 @@
+---
+import SiteLayout from '../layouts/SiteLayout.astro'
+import { pageEntries } from '../data/site-content/index.js'
+
+export function getStaticPaths() {
+  return pageEntries
+    .filter((page) => !['home', 'about'].includes(page.slug))
+    .map((page) => ({
+      params: { slug: page.slug },
+      props: { page },
+    }))
+}
+
+const { page } = Astro.props
+const title = `${page.label} | Vijini Mallawaarachchi`
+const Content = page.Content
+---
+
+<SiteLayout title={title} activeSlug={page.slug}>
+  <article class="page-section">
+    <p class="eyebrow">{page.kicker}</p>
+    <h1>{page.title}</h1>
+    {page.intro && <p class="lede">{page.intro}</p>}
+    <div class="markdown-content">
+      <Content />
+    </div>
+  </article>
+</SiteLayout>

@@ -1,0 +1,212 @@
+---
+import '../styles.css'
+import { pages, sidebarGroups, profile, socialLinks } from '../data/site-content/index.js'
+import { pagePath } from '../utils/routes.js'
+
+const { title = 'Vijini Mallawaarachchi', activeSlug = 'home' } = Astro.props
+const description =
+  'Vijini Mallawaarachchi - bioinformatics research, software, publications, achievements, and writing.'
+const topNavPages = pages.filter((page) => !['achievements', 'talks'].includes(page.slug))
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content={description} />
+    <title>{title}</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css"
+    />
+    <script is:inline>
+      const savedTheme = window.localStorage.getItem('theme')
+      const prefersLight = window.matchMedia('(prefers-color-scheme: light)').matches
+      document.documentElement.dataset.theme =
+        savedTheme === 'light' || savedTheme === 'dark'
+          ? savedTheme
+          : prefersLight
+            ? 'light'
+            : 'dark'
+    </script>
+  </head>
+  <body>
+    <div class="site-shell">
+      <header class="topbar">
+        <a class="brand" href={pagePath('home')}>
+          <span>
+            <strong>{profile.name}</strong>
+            <small>Research Fellow in Bioinformatics</small>
+          </span>
+        </a>
+        <div class="top-actions">
+          <div class="mobile-control-row">
+            <button
+              class="nav-toggle"
+              type="button"
+              aria-expanded="false"
+              aria-controls="site-sidebar"
+              aria-label="Toggle site navigation"
+            >
+              <span class="hamburger-lines" aria-hidden="true"></span>
+              <span>Menu</span>
+            </button>
+            <button class="theme-toggle" type="button" aria-label="Switch color theme">
+              <span class="theme-icon" aria-hidden="true"></span>
+              <span class="sr-only">Switch color theme</span>
+            </button>
+          </div>
+          <nav class="topnav" id="primary-navigation" aria-label="Primary navigation">
+            {
+              topNavPages.map((page) => (
+                <a
+                  class={page.slug === activeSlug ? 'active' : undefined}
+                  href={pagePath(page.slug)}
+                  aria-current={page.slug === activeSlug ? 'page' : undefined}
+                >
+                  {page.label}
+                </a>
+              ))
+            }
+          </nav>
+        </div>
+      </header>
+
+      <div class="layout">
+        <aside class="sidebar" id="site-sidebar">
+          <section class="side-section mobile-primary-links">
+            <h3>Pages</h3>
+            <ul>
+              {
+                topNavPages.map((page) => (
+                  <li>
+                    <a
+                      class={page.slug === activeSlug ? 'active' : undefined}
+                      href={pagePath(page.slug)}
+                      aria-current={page.slug === activeSlug ? 'page' : undefined}
+                    >
+                      {page.label}
+                    </a>
+                  </li>
+                ))
+              }
+            </ul>
+          </section>
+          {
+            sidebarGroups.map((group) => (
+              <section class="side-section">
+                <h3>{group.title}</h3>
+                <ul>
+                  {group.links.map((link) => (
+                    <li>
+                      {link.slug ? (
+                        <a
+                          class={activeSlug === link.slug ? 'active' : undefined}
+                          href={pagePath(link.slug)}
+                          aria-current={activeSlug === link.slug ? 'page' : undefined}
+                        >
+                          {link.label}
+                        </a>
+                      ) : (
+                        <a href={link.href} target="_blank" rel="noreferrer">
+                          {link.label}
+                        </a>
+                      )}
+                    </li>
+                  ))}
+                </ul>
+              </section>
+            ))
+          }
+          <section class="side-section">
+            <h3>Follow Me</h3>
+            <div class="social-grid">
+              {
+                socialLinks.map((link) => (
+                  <a href={link.href} target="_blank" rel="noreferrer">
+                    <i class={link.icon} aria-hidden="true"></i>
+                    <span>{link.label}</span>
+                  </a>
+                ))
+              }
+            </div>
+          </section>
+        </aside>
+
+        <main class="content-panel" id="main-content">
+          <slot />
+        </main>
+      </div>
+    </div>
+
+    <script>
+      const themeButton = document.querySelector('.theme-toggle')
+      const navButton = document.querySelector('.nav-toggle')
+      const sidebar = document.querySelector('.sidebar')
+
+      function syncThemeButton() {
+        const nextTheme = document.documentElement.dataset.theme === 'dark' ? 'Light' : 'Dark'
+        themeButton?.setAttribute('aria-label', `Switch to ${nextTheme.toLowerCase()} theme`)
+      }
+
+      themeButton?.addEventListener('click', () => {
+        const nextTheme = document.documentElement.dataset.theme === 'dark' ? 'light' : 'dark'
+        document.documentElement.dataset.theme = nextTheme
+        window.localStorage.setItem('theme', nextTheme)
+        syncThemeButton()
+      })
+
+      navButton?.addEventListener('click', () => {
+        const isOpen = sidebar?.classList.toggle('open') ?? false
+        navButton.setAttribute('aria-expanded', String(isOpen))
+      })
+
+      sidebar?.querySelectorAll('a').forEach((link) => {
+        link.addEventListener('click', () => {
+          sidebar.classList.remove('open')
+          navButton?.setAttribute('aria-expanded', 'false')
+        })
+      })
+
+      syncThemeButton()
+
+      document.querySelectorAll('[data-carousel]').forEach((carousel) => {
+        const images = JSON.parse(carousel.getAttribute('data-images') ?? '[]')
+        const media = carousel.querySelector('.carousel-media')
+        const image = carousel.querySelector('.carousel-image')
+        const count = carousel.querySelector('[data-carousel-count]')
+        const dots = [...carousel.querySelectorAll('[data-dot]')]
+        let activeIndex = 0
+
+        function showImage(index) {
+          if (!images.length || !media || !image) return
+          activeIndex = (index + images.length) % images.length
+          const activeImage = images[activeIndex]
+          const fit = activeImage.fit ?? 'landscape'
+
+          media.className = `carousel-media ${fit}`
+          media.setAttribute('data-fit', fit)
+          if (activeImage.aspectRatio) {
+            media.setAttribute('style', `aspect-ratio: ${activeImage.aspectRatio}`)
+          } else {
+            media.removeAttribute('style')
+          }
+
+          image.setAttribute('src', activeImage.src)
+          image.setAttribute('alt', activeImage.alt)
+          if (count) count.textContent = `${activeIndex + 1} / ${images.length}`
+          dots.forEach((dot, dotIndex) => dot.classList.toggle('active', dotIndex === activeIndex))
+        }
+
+        carousel.querySelector('.previous')?.addEventListener('click', () => showImage(activeIndex - 1))
+        carousel.querySelector('.next')?.addEventListener('click', () => showImage(activeIndex + 1))
+      })
+    </script>
+  </body>
+</html>
