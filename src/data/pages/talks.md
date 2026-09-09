@@ -6,6 +6,19 @@ title: "Talks"
 intro: "Here are some of my selected talks, seminars, and presentations."
 order: 7
 ---
+
+<section class="content-block">
+<h2>Upcoming Talks</h2>
+<ol class="publication-list talk-list">
+<li>
+<div class="talk-copy">
+<span class="publication-title">Advances in Microbial Genome Reconstruction and Analysis Using Graph-Based Approaches</span>
+<span class="publication-meta">Invited talk at Genome Informatics, Wellcome Genome Campus, UK, Dec 2026</span>
+</div>
+</li>
+</ol>
+</section>
+
 <section class="content-block">
 <h2>Invited Talks</h2>
 <ol class="publication-list talk-list">
