@@ -6,26 +6,28 @@ title: "Contact"
 intro: "For research conversations, collaborations, software questions, or speaking invitations."
 order: 7
 ---
-<section class="content-block">
-<h2>Contact Links</h2>
-<div class="card-grid">
-<article class="item-card">
-<p class="meta">Direct</p>
-<h3>Email</h3>
-<p>viji.mallawaarachchi@gmail.com</p>
-<a href="mailto:viji.mallawaarachchi1@gmail.com" target="_blank" rel="noreferrer">Send email</a>
-</article>
-<article class="item-card">
-<p class="meta">Code</p>
-<h3>GitHub</h3>
-<p>Research software, repositories, and project activity.</p>
-<a href="https://github.com/Vini2" target="_blank" rel="noreferrer">Open GitHub</a>
-</article>
-<article class="item-card">
-<p class="meta">Writing</p>
-<h3>Medium</h3>
-<p>Technical and reflective writing beyond the website archive.</p>
-<a href="https://vijini.medium.com/" target="_blank" rel="noreferrer">Open Medium</a>
-</article>
+<section class="content-block contact-block">
+<form class="contact-form" action="https://formsubmit.co/viji.mallawaarachchi@gmail.com" method="POST">
+<input type="hidden" name="_subject" value="New message from vijinimallawaarachchi.com" />
+<input type="hidden" name="_template" value="table" />
+<input type="hidden" name="_captcha" value="false" />
+<input type="text" name="_honey" class="sr-only" tabindex="-1" autocomplete="off" />
+<div class="form-field">
+<label for="contact-name">Name <span aria-hidden="true">(required)</span></label>
+<input id="contact-name" name="name" type="text" autocomplete="name" required />
 </div>
+<div class="form-field">
+<label for="contact-email">Email <span aria-hidden="true">(required)</span></label>
+<input id="contact-email" name="email" type="email" autocomplete="email" required />
+</div>
+<div class="form-field">
+<label for="contact-website">Website</label>
+<input id="contact-website" name="website" type="url" autocomplete="url" />
+</div>
+<div class="form-field">
+<label for="contact-message">Comment <span aria-hidden="true">(required)</span></label>
+<textarea id="contact-message" name="comment" rows="8" required></textarea>
+</div>
+<button type="submit">Submit</button>
+</form>
 </section>
