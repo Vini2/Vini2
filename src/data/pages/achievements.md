@@ -21,10 +21,10 @@ order: 5
 <a href="https://www.abacbs.org/awards" target="_blank" rel="noreferrer">Previous ABACBS awardees</a>
 </div>
 </div>
-<div class="achievement-carousel" aria-label="ABACBS Outstanding PhD Thesis Award 2024 images" data-carousel data-images="[{&quot;src&quot;:&quot;https://vijinimallawaarachchi.com/wp-content/uploads/2024/12/abacbs_phd_award-1.jpeg?w=732&quot;,&quot;alt&quot;:&quot;ABACBS Outstanding PhD Thesis Award&quot;,&quot;fit&quot;:&quot;portrait&quot;,&quot;aspectRatio&quot;:&quot;732 / 1024&quot;},{&quot;src&quot;:&quot;https://vijinimallawaarachchi.com/wp-content/uploads/2024/12/phd_thesis_front.png?w=722&quot;,&quot;alt&quot;:&quot;PhD thesis cover&quot;,&quot;fit&quot;:&quot;portrait&quot;,&quot;aspectRatio&quot;:&quot;722 / 1024&quot;}]">
+<div class="achievement-carousel" aria-label="ABACBS Outstanding PhD Thesis Award 2024 images" data-carousel data-images="[{&quot;src&quot;:&quot;../achievement-images/abacbs-phd-award-2024.jpeg&quot;,&quot;alt&quot;:&quot;ABACBS Outstanding PhD Thesis Award&quot;,&quot;fit&quot;:&quot;portrait&quot;,&quot;aspectRatio&quot;:&quot;732 / 1024&quot;},{&quot;src&quot;:&quot;../achievement-images/phd-thesis-front.png&quot;,&quot;alt&quot;:&quot;PhD thesis cover&quot;,&quot;fit&quot;:&quot;portrait&quot;,&quot;aspectRatio&quot;:&quot;722 / 1024&quot;}]">
 <div class="carousel-frame">
 <div class="carousel-media portrait" data-fit="portrait" style="aspect-ratio: 732 / 1024">
-<img class="carousel-image" src="https://vijinimallawaarachchi.com/wp-content/uploads/2024/12/abacbs_phd_award-1.jpeg?w=732" alt="ABACBS Outstanding PhD Thesis Award" loading="lazy" />
+<img class="carousel-image" src="../achievement-images/abacbs-phd-award-2024.jpeg" alt="ABACBS Outstanding PhD Thesis Award" loading="lazy" />
 </div>
 <button class="carousel-button previous" type="button" aria-label="Previous image"><span aria-hidden="true">&lsaquo;</span></button>
 <button class="carousel-button next" type="button" aria-label="Next image"><span aria-hidden="true">&rsaquo;</span></button>
@@ -52,10 +52,10 @@ order: 5
 <a href="https://www.nrc.gov.lk/wp-content/uploads/2024/01/PASR-list_2020_WEB.pdf" target="_blank" rel="noreferrer">Full list of awarded publications</a>
 </div>
 </div>
-<div class="achievement-carousel" aria-label="President&#39;s Award for Scientific Research 2023 images" data-carousel data-images="[{&quot;src&quot;:&quot;https://vijinimallawaarachchi.com/wp-content/uploads/2024/10/presidents-award-2023-1.jpeg?w=1024&quot;,&quot;alt&quot;:&quot;President&#39;s Award for Scientific Research 2023&quot;,&quot;fit&quot;:&quot;landscape&quot;,&quot;aspectRatio&quot;:&quot;1024 / 750&quot;}]">
+<div class="achievement-carousel" aria-label="President&#39;s Award for Scientific Research 2023 images" data-carousel data-images="[{&quot;src&quot;:&quot;../achievement-images/presidents-award-2023.jpeg&quot;,&quot;alt&quot;:&quot;President&#39;s Award for Scientific Research 2023&quot;,&quot;fit&quot;:&quot;landscape&quot;,&quot;aspectRatio&quot;:&quot;1024 / 750&quot;}]">
 <div class="carousel-frame">
 <div class="carousel-media landscape" data-fit="landscape" style="aspect-ratio: 1024 / 750">
-<img class="carousel-image" src="https://vijinimallawaarachchi.com/wp-content/uploads/2024/10/presidents-award-2023-1.jpeg?w=1024" alt="President&#39;s Award for Scientific Research 2023" loading="lazy" />
+<img class="carousel-image" src="../achievement-images/presidents-award-2023.jpeg" alt="President&#39;s Award for Scientific Research 2023" loading="lazy" />
 </div>
 </div>
 </div>
@@ -69,10 +69,10 @@ order: 5
 <a href="https://doi.org/10.1093/bioinformatics/btad586" target="_blank" rel="noreferrer">Phables publication in OUP Bioinformatics</a>
 </div>
 </div>
-<div class="achievement-carousel" aria-label="ASM SA/NT Branch ECR Award images" data-carousel data-images="[{&quot;src&quot;:&quot;https://vijinimallawaarachchi.com/wp-content/uploads/2023/12/img_1530.jpg?w=1024&quot;,&quot;alt&quot;:&quot;ASM SA/NT Branch ECR Award event&quot;,&quot;fit&quot;:&quot;landscape&quot;,&quot;aspectRatio&quot;:&quot;1024 / 635&quot;},{&quot;src&quot;:&quot;https://vijinimallawaarachchi.com/wp-content/uploads/2023/12/img_1528.jpg?w=576&quot;,&quot;alt&quot;:&quot;ASM SA/NT Branch ECR Award&quot;,&quot;fit&quot;:&quot;portrait&quot;,&quot;aspectRatio&quot;:&quot;576 / 1024&quot;},{&quot;src&quot;:&quot;https://vijinimallawaarachchi.com/wp-content/uploads/2023/12/img_0379.jpg?w=1024&quot;,&quot;alt&quot;:&quot;ASM SA/NT Branch Early Career Researcher Awards Night&quot;,&quot;fit&quot;:&quot;landscape&quot;,&quot;aspectRatio&quot;:&quot;1024 / 641&quot;}]">
+<div class="achievement-carousel" aria-label="ASM SA/NT Branch ECR Award images" data-carousel data-images="[{&quot;src&quot;:&quot;../achievement-images/asm-ecr-event-2023.jpg&quot;,&quot;alt&quot;:&quot;ASM SA/NT Branch ECR Award event&quot;,&quot;fit&quot;:&quot;landscape&quot;,&quot;aspectRatio&quot;:&quot;1024 / 635&quot;},{&quot;src&quot;:&quot;../achievement-images/asm-ecr-award-2023.jpg&quot;,&quot;alt&quot;:&quot;ASM SA/NT Branch ECR Award&quot;,&quot;fit&quot;:&quot;portrait&quot;,&quot;aspectRatio&quot;:&quot;576 / 1024&quot;},{&quot;src&quot;:&quot;../achievement-images/asm-ecr-night-2023.jpg&quot;,&quot;alt&quot;:&quot;ASM SA/NT Branch Early Career Researcher Awards Night&quot;,&quot;fit&quot;:&quot;landscape&quot;,&quot;aspectRatio&quot;:&quot;1024 / 641&quot;}]">
 <div class="carousel-frame">
 <div class="carousel-media landscape" data-fit="landscape" style="aspect-ratio: 1024 / 635">
-<img class="carousel-image" src="https://vijinimallawaarachchi.com/wp-content/uploads/2023/12/img_1530.jpg?w=1024" alt="ASM SA/NT Branch ECR Award event" loading="lazy" />
+<img class="carousel-image" src="../achievement-images/asm-ecr-event-2023.jpg" alt="ASM SA/NT Branch ECR Award event" loading="lazy" />
 </div>
 <button class="carousel-button previous" type="button" aria-label="Previous image"><span aria-hidden="true">&lsaquo;</span></button>
 <button class="carousel-button next" type="button" aria-label="Next image"><span aria-hidden="true">&rsaquo;</span></button>
@@ -94,10 +94,10 @@ order: 5
 <p>Did a lightning talk on my poster titled &quot;Phables: Phage bubbles resolve bacteriophage genomes in viral metagenomic samples&quot; at the Australian Bioinformatics And Computational Biology Society (ABACBS) Conference 2022.</p>
 <p>Won the best lightning talk (student) award.</p>
 </div>
-<div class="achievement-carousel" aria-label="ABACBS 2022, Melbourne, Australia images" data-carousel data-images="[{&quot;src&quot;:&quot;https://vijinimallawaarachchi.com/wp-content/uploads/2023/01/abacbs_2022_lightning_talk_award-1.jpg?w=1024&quot;,&quot;alt&quot;:&quot;ABACBS 2022 best lightning talk student award&quot;,&quot;fit&quot;:&quot;landscape&quot;,&quot;aspectRatio&quot;:&quot;1024 / 547&quot;}]">
+<div class="achievement-carousel" aria-label="ABACBS 2022, Melbourne, Australia images" data-carousel data-images="[{&quot;src&quot;:&quot;../achievement-images/abacbs-lightning-talk-2022.jpg&quot;,&quot;alt&quot;:&quot;ABACBS 2022 best lightning talk student award&quot;,&quot;fit&quot;:&quot;landscape&quot;,&quot;aspectRatio&quot;:&quot;1024 / 547&quot;}]">
 <div class="carousel-frame">
 <div class="carousel-media landscape" data-fit="landscape" style="aspect-ratio: 1024 / 547">
-<img class="carousel-image" src="https://vijinimallawaarachchi.com/wp-content/uploads/2023/01/abacbs_2022_lightning_talk_award-1.jpg?w=1024" alt="ABACBS 2022 best lightning talk student award" loading="lazy" />
+<img class="carousel-image" src="../achievement-images/abacbs-lightning-talk-2022.jpg" alt="ABACBS 2022 best lightning talk student award" loading="lazy" />
 </div>
 </div>
 </div>
@@ -112,10 +112,10 @@ order: 5
 <a href="https://microbiologysociety.org/blog/genomes-of-microbiomes-a-view-from-twitter.html" target="_blank" rel="noreferrer">Microbiology Society blog about highlights on Twitter</a>
 </div>
 </div>
-<div class="achievement-carousel" aria-label="Genomes of Microbiomes 2022, Birmingham, UK images" data-carousel data-images="[{&quot;src&quot;:&quot;https://vijinimallawaarachchi.com/wp-content/uploads/2022/09/genomesmicrobiomes22.jpeg?w=768&quot;,&quot;alt&quot;:&quot;Genomes of Microbiomes 2022&quot;,&quot;fit&quot;:&quot;portrait&quot;,&quot;aspectRatio&quot;:&quot;768 / 1024&quot;},{&quot;src&quot;:&quot;https://vijinimallawaarachchi.com/wp-content/uploads/2022/09/genomesmicrobiomes22_2.jpeg?w=1024&quot;,&quot;alt&quot;:&quot;Genomes of Microbiomes 2022 poster prize&quot;,&quot;fit&quot;:&quot;landscape&quot;,&quot;aspectRatio&quot;:&quot;1024 / 549&quot;}]">
+<div class="achievement-carousel" aria-label="Genomes of Microbiomes 2022, Birmingham, UK images" data-carousel data-images="[{&quot;src&quot;:&quot;../achievement-images/genomes-microbiomes-2022.jpeg&quot;,&quot;alt&quot;:&quot;Genomes of Microbiomes 2022&quot;,&quot;fit&quot;:&quot;portrait&quot;,&quot;aspectRatio&quot;:&quot;768 / 1024&quot;},{&quot;src&quot;:&quot;../achievement-images/genomes-microbiomes-poster-2022.jpeg&quot;,&quot;alt&quot;:&quot;Genomes of Microbiomes 2022 poster prize&quot;,&quot;fit&quot;:&quot;landscape&quot;,&quot;aspectRatio&quot;:&quot;1024 / 549&quot;}]">
 <div class="carousel-frame">
 <div class="carousel-media portrait" data-fit="portrait" style="aspect-ratio: 768 / 1024">
-<img class="carousel-image" src="https://vijinimallawaarachchi.com/wp-content/uploads/2022/09/genomesmicrobiomes22.jpeg?w=768" alt="Genomes of Microbiomes 2022" loading="lazy" />
+<img class="carousel-image" src="../achievement-images/genomes-microbiomes-2022.jpeg" alt="Genomes of Microbiomes 2022" loading="lazy" />
 </div>
 <button class="carousel-button previous" type="button" aria-label="Previous image"><span aria-hidden="true">&lsaquo;</span></button>
 <button class="carousel-button next" type="button" aria-label="Next image"><span aria-hidden="true">&rsaquo;</span></button>
@@ -138,10 +138,10 @@ order: 5
 <a href="http://icsca.org/icsca2018.html" target="_blank" rel="noreferrer">7th ACM International Conference on Software and Computer Applications 2018</a>
 </div>
 </div>
-<div class="achievement-carousel" aria-label="ICSCA 2018, Kuantan, Malaysia images" data-carousel data-images="[{&quot;src&quot;:&quot;https://vijinimallawaarachchi.com/wp-content/uploads/2018/05/vijinimallawaarachchi.jpg&quot;,&quot;alt&quot;:&quot;ICSCA 2018&quot;,&quot;fit&quot;:&quot;portrait&quot;,&quot;aspectRatio&quot;:&quot;944 / 1280&quot;},{&quot;src&quot;:&quot;https://vijinimallawaarachchi.com/wp-content/uploads/2018/05/img_20180209_103625-copy1.jpg&quot;,&quot;alt&quot;:&quot;ICSCA 2018 oral presentation certificate&quot;,&quot;fit&quot;:&quot;landscape&quot;,&quot;aspectRatio&quot;:&quot;3871 / 1708&quot;}]">
+<div class="achievement-carousel" aria-label="ICSCA 2018, Kuantan, Malaysia images" data-carousel data-images="[{&quot;src&quot;:&quot;../achievement-images/icsca-2018.jpg&quot;,&quot;alt&quot;:&quot;ICSCA 2018&quot;,&quot;fit&quot;:&quot;portrait&quot;,&quot;aspectRatio&quot;:&quot;944 / 1280&quot;},{&quot;src&quot;:&quot;../achievement-images/icsca-certificate-2018.jpg&quot;,&quot;alt&quot;:&quot;ICSCA 2018 oral presentation certificate&quot;,&quot;fit&quot;:&quot;landscape&quot;,&quot;aspectRatio&quot;:&quot;3871 / 1708&quot;}]">
 <div class="carousel-frame">
 <div class="carousel-media portrait" data-fit="portrait" style="aspect-ratio: 944 / 1280">
-<img class="carousel-image" src="https://vijinimallawaarachchi.com/wp-content/uploads/2018/05/vijinimallawaarachchi.jpg" alt="ICSCA 2018" loading="lazy" />
+<img class="carousel-image" src="../achievement-images/icsca-2018.jpg" alt="ICSCA 2018" loading="lazy" />
 </div>
 <button class="carousel-button previous" type="button" aria-label="Previous image"><span aria-hidden="true">&lsaquo;</span></button>
 <button class="carousel-button next" type="button" aria-label="Next image"><span aria-hidden="true">&rsaquo;</span></button>
@@ -166,10 +166,10 @@ order: 5
 <a href="https://women.acm.org/scholars/acm-w-scholars/vijini-mallawaarachchi/" target="_blank" rel="noreferrer">ACM-W Scholars experience</a>
 </div>
 </div>
-<div class="achievement-carousel" aria-label="ACM-W Scholarship for Attendance of Research Conferences - 2018 images" data-carousel data-images="[{&quot;src&quot;:&quot;https://vijinimallawaarachchi.com/wp-content/uploads/2019/10/acm-w-experience.png?w=1024&quot;,&quot;alt&quot;:&quot;ACM-W Scholarship experience&quot;,&quot;fit&quot;:&quot;landscape&quot;,&quot;aspectRatio&quot;:&quot;1024 / 840&quot;}]">
+<div class="achievement-carousel" aria-label="ACM-W Scholarship for Attendance of Research Conferences - 2018 images" data-carousel data-images="[{&quot;src&quot;:&quot;../achievement-images/acm-w-experience-2018.png&quot;,&quot;alt&quot;:&quot;ACM-W Scholarship experience&quot;,&quot;fit&quot;:&quot;landscape&quot;,&quot;aspectRatio&quot;:&quot;1024 / 840&quot;}]">
 <div class="carousel-frame">
 <div class="carousel-media landscape" data-fit="landscape" style="aspect-ratio: 1024 / 840">
-<img class="carousel-image" src="https://vijinimallawaarachchi.com/wp-content/uploads/2019/10/acm-w-experience.png?w=1024" alt="ACM-W Scholarship experience" loading="lazy" />
+<img class="carousel-image" src="../achievement-images/acm-w-experience-2018.png" alt="ACM-W Scholarship experience" loading="lazy" />
 </div>
 </div>
 </div>
@@ -180,10 +180,10 @@ order: 5
 <h3>Google I/O 2015 - Best Innovation</h3>
 <p>Won 1st place and the &quot;Best Innovation&quot; award at the Google I/O hackathon 2015. Out of the 66 teams, 10 teams got through to the Hackathon finals and ultimately our team won it for the product &quot;Amplus&quot;, a SMART advertising platform designed to help businesses advertise their products.</p>
 </div>
-<div class="achievement-carousel" aria-label="Google I/O 2015 - Best Innovation images" data-carousel data-images="[{&quot;src&quot;:&quot;https://vijinimallawaarachchi.com/wp-content/uploads/2017/05/0c70d-11350408_10207104979651440_5452351362707976466_n.jpg?w=748&quot;,&quot;alt&quot;:&quot;Google I/O 2015 Best Innovation&quot;,&quot;fit&quot;:&quot;landscape&quot;,&quot;aspectRatio&quot;:&quot;748 / 421&quot;}]">
+<div class="achievement-carousel" aria-label="Google I/O 2015 - Best Innovation images" data-carousel data-images="[{&quot;src&quot;:&quot;../achievement-images/google-io-2015.jpg&quot;,&quot;alt&quot;:&quot;Google I/O 2015 Best Innovation&quot;,&quot;fit&quot;:&quot;landscape&quot;,&quot;aspectRatio&quot;:&quot;748 / 421&quot;}]">
 <div class="carousel-frame">
 <div class="carousel-media landscape" data-fit="landscape" style="aspect-ratio: 748 / 421">
-<img class="carousel-image" src="https://vijinimallawaarachchi.com/wp-content/uploads/2017/05/0c70d-11350408_10207104979651440_5452351362707976466_n.jpg?w=748" alt="Google I/O 2015 Best Innovation" loading="lazy" />
+<img class="carousel-image" src="../achievement-images/google-io-2015.jpg" alt="Google I/O 2015 Best Innovation" loading="lazy" />
 </div>
 </div>
 </div>
