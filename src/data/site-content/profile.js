@@ -1,5 +1,5 @@
 export const profile = {
   "name": "Vijini Mallawaarachchi",
   "role": "Research Fellow in Bioinformatics",
-  "image": "../../../public/headshot.png" 
+  "image": "../../../headshot.png" 
 }
