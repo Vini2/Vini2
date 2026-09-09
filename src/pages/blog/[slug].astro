@@ -1,0 +1,53 @@
+---
+import SiteLayout from '../../layouts/SiteLayout.astro'
+
+export function getStaticPaths() {
+  const postModules = import.meta.glob('../../data/blog/*/index.md', { eager: true })
+  const posts = Object.values(postModules)
+    .map((module) => ({
+      ...module.frontmatter,
+      Content: module.Content,
+    }))
+    .sort((left, right) => new Date(right.date) - new Date(left.date))
+
+  return posts.map((post) => ({
+    params: { slug: post.slug },
+    props: { post },
+  }))
+}
+
+const { post } = Astro.props
+const Content = post.Content
+const formattedDate = new Date(`${post.date}T00:00:00`).toLocaleDateString('en', {
+  year: 'numeric',
+  month: 'long',
+  day: 'numeric',
+})
+const base = import.meta.env.BASE_URL.endsWith('/')
+  ? import.meta.env.BASE_URL
+  : `${import.meta.env.BASE_URL}/`
+const assetPath = (path) => `${base}${path.replace(/^\//, '')}`
+---
+
+<SiteLayout title={`${post.title} | Vijini Mallawaarachchi`} activeSlug="blog">
+  <article class="page-section blog-article">
+    <a class="back-link" href={`${base}blog/`}>Blog</a>
+    <header class="blog-article-header">
+      <p class="meta">
+        <time datetime={post.date}>{formattedDate}</time>
+        {post.categories?.length ? ` / ${post.categories.join(', ')}` : ''}
+      </p>
+      <h1>{post.title}</h1>
+    </header>
+
+    {post.featuredImage && (
+      <figure class="blog-hero-image">
+        <img src={assetPath(post.featuredImage)} alt="" />
+      </figure>
+    )}
+
+    <div class="markdown-content blog-prose">
+      <Content />
+    </div>
+  </article>
+</SiteLayout>
