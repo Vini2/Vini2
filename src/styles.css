@@ -706,6 +706,40 @@ time {
   font-style: italic;
 }
 
+.talk-list li {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 16px;
+  align-items: start;
+}
+
+.talk-copy {
+  min-width: 0;
+}
+
+.talk-actions {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.talk-slide-link {
+  display: inline-grid;
+  place-items: center;
+  width: 42px;
+  height: 42px;
+  margin-top: 2px;
+  border: 1px solid var(--line-strong);
+  color: var(--muted);
+  font-size: 1.18rem;
+}
+
+.talk-slide-link:hover {
+  border-color: var(--accent-line);
+  color: var(--accent-strong);
+  background: var(--accent-soft);
+}
+
 .author-self {
   color: var(--paper);
   font-weight: 700;
