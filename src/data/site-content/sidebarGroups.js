@@ -17,6 +17,10 @@ export const sidebarGroups = [
       {
         "label": "Teaching",
         "slug": "teaching"
+      },
+      {
+        "label": "Sandbox",
+        "slug": "sandbox"
       }
     ]
   },
