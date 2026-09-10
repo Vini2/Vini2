@@ -8,60 +8,72 @@ featuredImage: "/blog-images/software-tools-for-reference-free-binning-of-metage
 categories: ["Binning", "Bioinformatics", "Data Science", "Genomics", "Metagenomics"]
 tags: ["Binning", "Bioinformatics", "Data Science", "Metagenomics"]
 ---
-<p>We know that there are trillions of microbes in the environment surrounding us, even in our bodies. These microscopic communities have very diverse ecosystems and by studying their composition and behaviour we can learn a lot about them. If you have come across my previous article <a href="https://vijinimallawaarachchi.com/2020/03/29/metagenomics-who-is-there-and-what-are-they-doing/" target="_blank" rel="noreferrer">Metagenomics — Who is there and what are they doing?</a> then you know that binning is an important step in metagenomics analysis.<a href="https://medium.com/computational-biology/metagenomics-who-is-there-and-what-are-they-doing-9ea71f03eeee"></a></p>
+We know that there are trillions of microbes in the environment surrounding us, even in our bodies. These microscopic communities have very diverse ecosystems and by studying their composition and behaviour we can learn a lot about them. If you have come across my previous article [Metagenomics — Who is there and what are they doing?](https://vijinimallawaarachchi.com/2020/03/29/metagenomics-who-is-there-and-what-are-they-doing/) then you know that binning is an important step in metagenomics analysis.[https://medium.com/computational-biology/metagenomics-who-is-there-and-what-are-they-doing-9ea71f03eeee](https://medium.com/computational-biology/metagenomics-who-is-there-and-what-are-they-doing-9ea71f03eeee)
 
-<h3>What is Metagenomics Binning?</h3>
+### What is Metagenomics Binning?
 
-<p>Metagenomics binning is the process where we cluster sequences into similar groups corresponding to taxonomic groups such as species, genus or higher levels. We can consider two main categories of metagenomics binning approaches. They are <strong>reference-based</strong> binning and <strong>reference-free</strong> binning. Reference-based binning methods align sequences to databases of reference genomes and determines the taxonomic group to which the sequence belongs to. Reference-free binning methods make use of sequence information, without any prior knowledge and group sequences into unlabelled bins.</p>
+Metagenomics binning is the process where we cluster sequences into similar groups corresponding to taxonomic groups such as species, genus or higher levels. We can consider two main categories of metagenomics binning approaches. They are **reference-based** binning and **reference-free** binning. Reference-based binning methods align sequences to databases of reference genomes and determines the taxonomic group to which the sequence belongs to. Reference-free binning methods make use of sequence information, without any prior knowledge and group sequences into unlabelled bins.
 
-<p>In this article, we will be focusing on reference-free binning methods. These methods can be divided into 3 categories. They are</p>
+In this article, we will be focusing on reference-free binning methods. These methods can be divided into 3 categories. They are
 
-<ol><li>Composition-based binning</li><li>Abundance-based binning</li><li>Composition and abundance-based binning</li></ol>
+1. Composition-based binning
+2. Abundance-based binning
+3. Composition and abundance-based binning
 
-<h3>Composition-based Binning&nbsp;Tools</h3>
+### Composition-based Binning Tools
 
-<p>These tools make use of the compositional information of the sequences. The compositional information is generally represented by <strong>oligonucleotide composition</strong>. An <strong>oligonucleotide</strong> is considered to be a contiguous string of a small number of nucleotides. In computational terms, we define oligonucleotides as <strong><em>k-mers </em></strong>(words of size <em>k</em>). The oligonucleotide composition is considered to be conserved within microbial species and varies between species. Sequences are represented as oligonucleotide frequency vectors and different machine learning approaches can be applied to these vectors to group together similar sequences.</p>
+These tools make use of the compositional information of the sequences. The compositional information is generally represented by **oligonucleotide composition**. An **oligonucleotide** is considered to be a contiguous string of a small number of nucleotides. In computational terms, we define oligonucleotides as **_k-mers_**(words of size _k_). The oligonucleotide composition is considered to be conserved within microbial species and varies between species. Sequences are represented as oligonucleotide frequency vectors and different machine learning approaches can be applied to these vectors to group together similar sequences.
 
-<p>Example tools include:</p>
+Example tools include:
 
-<ul><li><a href="https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-5-163" rel="noreferrer" target="_blank">TETRA</a></li><li><a href="https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-11-544" rel="noreferrer" target="_blank">SCIMM</a></li></ul>
+- [TETRA](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-5-163)
+- [SCIMM](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-11-544)
 
-<p>You can read the following articles to read about more analyses I have carried out using composition-based binning techniques.</p>
+You can read the following articles to read about more analyses I have carried out using composition-based binning techniques.
 
-<ol><li><a href="https://towardsdatascience.com/composition-based-clustering-of-metagenomic-sequences-4e0b7e01c463"><strong>Composition-based Clustering of Metagenomic Sequences</strong><br></a><a href="https://towardsdatascience.com/composition-based-clustering-of-metagenomic-sequences-4e0b7e01c463"></a></li><li><a href="https://towardsdatascience.com/how-similar-is-covid-19-to-previously-discovered-coronaviruses-c3d9f25840f7"><strong>How similar is COVID-19 to previously discovered Coronaviruses</strong></a><br><a href="https://towardsdatascience.com/how-similar-is-covid-19-to-previously-discovered-coronaviruses-c3d9f25840f7"></a></li></ol>
+1. [**Composition-based Clustering of Metagenomic Sequences**](https://towardsdatascience.com/composition-based-clustering-of-metagenomic-sequences-4e0b7e01c463)[https://towardsdatascience.com/composition-based-clustering-of-metagenomic-sequences-4e0b7e01c463](https://towardsdatascience.com/composition-based-clustering-of-metagenomic-sequences-4e0b7e01c463)
+2. [**How similar is COVID-19 to previously discovered Coronaviruses**](https://towardsdatascience.com/how-similar-is-covid-19-to-previously-discovered-coronaviruses-c3d9f25840f7)
+[https://towardsdatascience.com/how-similar-is-covid-19-to-previously-discovered-coronaviruses-c3d9f25840f7](https://towardsdatascience.com/how-similar-is-covid-19-to-previously-discovered-coronaviruses-c3d9f25840f7)
 
-<h3>Abundance-based Binning</h3>
+### Abundance-based Binning
 
-<p>Different species can be present at different abundances in a metagenomics sample. Some species can have a low abundance and some can have a high abundance. The coverage of sequences in a metagenomics sample can represent the abundance of underlying species to which the sequences belong to. Abundance-based binning tools make use of this coverage information to identify sequences of similar abundance.</p>
+Different species can be present at different abundances in a metagenomics sample. Some species can have a low abundance and some can have a high abundance. The coverage of sequences in a metagenomics sample can represent the abundance of underlying species to which the sequences belong to. Abundance-based binning tools make use of this coverage information to identify sequences of similar abundance.
 
-<p>Example tools include,</p>
+Example tools include,
 
-<ul><li><a href="https://www.liebertpub.com/doi/10.1089/cmb.2010.0245" rel="noreferrer" target="_blank">AbundanceBin</a></li><li><a href="https://www.nature.com/articles/nbt.2939" rel="noreferrer" target="_blank">Canopy</a></li></ul>
+- [AbundanceBin](https://www.liebertpub.com/doi/10.1089/cmb.2010.0245)
+- [Canopy](https://www.nature.com/articles/nbt.2939)
 
-<h3>Composition and Abundance-based Binning</h3>
+### Composition and Abundance-based Binning
 
-<p>Sometimes there can be species having similar nucleotide composition and hence sequences originating from those species cannot be well-distinguished using composition-based binning tools. In such cases, the abundance of the underlying species can be made use of to separate the sequences. Hence, composition and abundance-based binning methods have been introduced.</p>
+Sometimes there can be species having similar nucleotide composition and hence sequences originating from those species cannot be well-distinguished using composition-based binning tools. In such cases, the abundance of the underlying species can be made use of to separate the sequences. Hence, composition and abundance-based binning methods have been introduced.
 
-<p>Example tools include,</p>
+Example tools include,
 
-<ul><li><a href="https://microbiomejournal.biomedcentral.com/articles/10.1186/2049-2618-2-26" rel="noreferrer" target="_blank">MaxBin</a></li><li><a href="https://www.frontiersin.org/articles/10.3389/fmicb.2012.00410/full" rel="noreferrer" target="_blank">MetaWatt</a></li><li><a href="https://academic.oup.com/bioinformatics/article-abstract/35/21/4229/5448864?redirectedFrom=fulltext" rel="noreferrer" target="_blank">SolidBin</a></li><li><a href="https://doi.org/10.1093/bioinformatics/btaa441" rel="noreferrer" target="_blank">MetaBCC-LR</a></li></ul>
+- [MaxBin](https://microbiomejournal.biomedcentral.com/articles/10.1186/2049-2618-2-26)
+- [MetaWatt](https://www.frontiersin.org/articles/10.3389/fmicb.2012.00410/full)
+- [SolidBin](https://academic.oup.com/bioinformatics/article-abstract/35/21/4229/5448864?redirectedFrom=fulltext)
+- [MetaBCC-LR](https://doi.org/10.1093/bioinformatics/btaa441)
 
-<h3>Other Approaches</h3>
+### Other Approaches
 
-<p>Apart from the above three methods, the research community has proposed new tools which make use of additional information. Some of them are,</p>
+Apart from the above three methods, the research community has proposed new tools which make use of additional information. Some of them are,
 
-<ul><li><a href="https://academic.oup.com/bioinformatics/article/34/24/4172/5045915" rel="noreferrer" target="_blank">BMC3C</a>: makes use of codon information</li><li><a href="https://academic.oup.com/bioinformatics/article/33/6/791/2525584" rel="noreferrer" target="_blank">COCACOLA</a>: make use of linkage information from paired-end reads</li><li><a href="https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-017-1835-1" rel="noreferrer" target="_blank">d2S Bin</a>: refines binning results by adjusting sequences based on their dissimilarity</li><li><a href="https://doi.org/10.1093/bioinformatics/btaa180" rel="noreferrer" target="_blank">GraphBin</a>: refines binning results using the connection information of the contigs in the assembly graph (which I have authored)</li></ul>
+- [BMC3C](https://academic.oup.com/bioinformatics/article/34/24/4172/5045915): makes use of codon information
+- [COCACOLA](https://academic.oup.com/bioinformatics/article/33/6/791/2525584): make use of linkage information from paired-end reads
+- [d2S Bin](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-017-1835-1): refines binning results by adjusting sequences based on their dissimilarity
+- [GraphBin](https://doi.org/10.1093/bioinformatics/btaa180): refines binning results using the connection information of the contigs in the assembly graph (which I have authored)
 
-<p>Hope you found this article useful, especially for beginners in the field of bioinformatics of metagenomics. Feel free to try out these tools and see how they perform. I have provided research articles relevant to them. Most of the articles have links to their software so you can download and try them out.</p>
+Hope you found this article useful, especially for beginners in the field of bioinformatics of metagenomics. Feel free to try out these tools and see how they perform. I have provided research articles relevant to them. Most of the articles have links to their software so you can download and try them out.
 
-<p>Thank you for reading!</p>
+Thank you for reading!
 
-<p>Cheers.</p>
+Cheers.
 
-<hr />
+---
 
-<p><em>This article was originally published in <a rel="noreferrer" href="https://medium.com/computational-biology" target="_blank">The Computational Biology Magazine on Medium</a>.</em></p>
+_This article was originally published in [The Computational Biology Magazine on Medium](https://medium.com/computational-biology)._
 
-<p><em>Cover image by <a rel="noreferrer" href="https://pixabay.com/users/markusspiske-670330/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1808082" target="_blank">Markus Spiske</a> from <a rel="noreferrer" href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1808082" target="_blank">Pixabay</a></em></p>
+_Cover image by [Markus Spiske](https://pixabay.com/users/markusspiske-670330/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1808082) from [Pixabay](https://pixabay.com/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1808082)_
 
-<p><em>You can find the original article at <a href="https://medium.com/computational-biology/software-tools-for-reference-free-binning-of-metagenomes-f2d26b27eef2">https://medium.com/computational-biology/software-tools-for-reference-free-binning-of-metagenomes-f2d26b27eef2</a></em></p>
+_You can find the original article at [https://medium.com/computational-biology/software-tools-for-reference-free-binning-of-metagenomes-f2d26b27eef2](https://medium.com/computational-biology/software-tools-for-reference-free-binning-of-metagenomes-f2d26b27eef2)_
