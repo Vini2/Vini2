@@ -13,6 +13,10 @@ export const sidebarGroups = [
       {
         "label": "Talks",
         "slug": "talks"
+      },
+      {
+        "label": "Teaching",
+        "slug": "teaching"
       }
     ]
   },

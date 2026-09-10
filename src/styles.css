@@ -784,6 +784,12 @@ time {
   min-width: 0;
 }
 
+.talk-title {
+  color: var(--paper);
+  cursor: default;
+  font-weight: 700;
+}
+
 .talk-actions {
   display: flex;
   gap: 8px;
