@@ -7,6 +7,9 @@ const { title = 'Vijini Mallawaarachchi', activeSlug = 'home' } = Astro.props
 const description =
   'Vijini Mallawaarachchi - bioinformatics research, software, publications, achievements, and writing.'
 const topNavPages = pages.filter((page) => !['achievements', 'talks'].includes(page.slug))
+const assetBase = import.meta.env.BASE_URL.endsWith('/')
+  ? import.meta.env.BASE_URL
+  : `${import.meta.env.BASE_URL}/`
 ---
 
 <!doctype html>
@@ -16,6 +19,7 @@ const topNavPages = pages.filter((page) => !['achievements', 'talks'].includes(p
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content={description} />
     <title>{title}</title>
+    <link rel="icon" type="image/svg+xml" href={`${assetBase}favicon.svg`} />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
@@ -42,7 +46,6 @@ const topNavPages = pages.filter((page) => !['achievements', 'talks'].includes(p
         <a class="brand" href={pagePath('home')}>
           <span>
             <strong>{profile.name}</strong>
-            <small>Research Fellow in Bioinformatics</small>
           </span>
         </a>
         <div class="top-actions">

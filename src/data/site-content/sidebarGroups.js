@@ -13,27 +13,35 @@ export const sidebarGroups = [
       {
         "label": "Talks",
         "slug": "talks"
-      },
-      {
-        "label": "Contact",
-        "slug": "contact"
       }
     ]
   },
   {
-    "title": "Research",
+    "title": "Software",
     "links": [
       {
-        "label": "Research Interests",
-        "slug": "research"
+        "label": "GraphBin",
+        "href": "https://github.com/metagentools/GraphBin"
       },
       {
-        "label": "Software",
-        "slug": "software"
+        "label": "GraphBin2",
+        "href": "https://github.com/metagentools/GraphBin2"
       },
       {
-        "label": "Publications",
-        "slug": "publications"
+        "label": "MetaCoAG",
+        "href": "https://github.com/metagentools/MetaCoAG"
+      },
+      {
+        "label": "Phables",
+        "href": "https://github.com/Vini2/phables"
+      },
+      {
+        "label": "agtools",
+        "href": "https://github.com/Vini2/agtools"
+      },
+      {
+        "label": "Reneo",
+        "href": "https://github.com/Vini2/reneo"
       }
     ]
   }

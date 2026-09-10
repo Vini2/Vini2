@@ -3,11 +3,11 @@ slug: "contact"
 label: "Contact"
 kicker: "Get In Touch"
 title: "Contact"
-intro: "For research conversations, collaborations, software questions, or speaking invitations."
+intro: "Feel free to contact me for research conversations, collaborations, software questions, or other professional inquiries."
 order: 7
 ---
 <section class="content-block contact-block">
-<form class="contact-form" action="https://formsubmit.co/viji.mallawaarachchi@gmail.com" method="POST">
+<form class="contact-form" action="https://formsubmit.co/cd777762258c437e131885e75a39733c" method="POST">
 <input type="hidden" name="_subject" value="New message from vijinimallawaarachchi.com" />
 <input type="hidden" name="_template" value="table" />
 <input type="hidden" name="_captcha" value="false" />

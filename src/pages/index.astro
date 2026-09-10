@@ -7,6 +7,9 @@ const home = getPageEntry('home')
 const about = getPageEntry('about')
 const HomeContent = home.Content
 const AboutContent = about.Content
+const base = import.meta.env.BASE_URL.endsWith('/')
+  ? import.meta.env.BASE_URL
+  : `${import.meta.env.BASE_URL}/`
 ---
 
 <SiteLayout title="Vijini Mallawaarachchi" activeSlug="home">
@@ -55,6 +58,36 @@ const AboutContent = about.Content
     <section class="intro-columns markdown-content" aria-label="Biography and current work">
       <AboutContent />
       <HomeContent />
+    </section>
+
+    <section class="memorial-section" aria-labelledby="yu-lin-memorial-title">
+      <div class="memorial-copy">
+        <h2 id="yu-lin-memorial-title">
+          In loving memory of our dear PhD supervisor
+          <a
+            href="https://xuehansheng.github.io/Yu_CV_2022.pdf"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Dr. Yu Lin
+          </a>
+        </h2>
+      </div>
+      <a
+        class="memorial-image-link"
+        href="https://cgg-anu.github.io/"
+        target="_blank"
+        rel="noreferrer"
+        aria-label="Visit the Computational Genomics Group website"
+      >
+        <img
+          src={`${base}memorial-images/yu-lin-memorial.png`}
+          alt="Memorial tribute image for Dr. Yu Lin"
+          width="1279"
+          height="1279"
+          loading="lazy"
+        />
+      </a>
     </section>
   </article>
 </SiteLayout>
