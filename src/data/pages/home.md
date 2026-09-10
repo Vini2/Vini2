@@ -8,8 +8,8 @@ order: 0
 ---
 <section class="content-block prose">
 <h2>Current Work</h2>
-<p>I am a Postdoctoral Research Fellow at the <a href="https://fame.flinders.edu.au/" target="_blank" rel="noreferrer">Flinders Accelerator for Microbiome Exploration</a>. My work focuses on algorithms and computational models related to the recovery of genomes from metagenomes.</p>
-<p>Metagenomics studies genetic material obtained from microbial communities. My research develops methods and tools to investigate taxonomic structure, reconstruct microbial genomes, and make complex biological data easier to explore.</p>
+<p>I am a Postdoctoral Research Fellow at the <a href="https://fame.flinders.edu.au/" target="_blank" rel="noreferrer">Flinders Accelerator for Microbiome Exploration</a>. My work focuses on algorithms and computational models to recover genomes from metagenomes.</p>
+<p>Along the way, I have also explored web development, web analytics, image processing, machine/deep learning and other areas of computer science to come up with solutions to solve biological problems.</p>
 </section>
 
 <section class="content-block prose">
