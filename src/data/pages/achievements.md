@@ -180,10 +180,19 @@ order: 5
 <h3>Google I/O 2015 - Best Innovation</h3>
 <p>Won 1st place and the &quot;Best Innovation&quot; award at the Google I/O hackathon 2015. Out of the 66 teams, 10 teams got through to the Hackathon finals and ultimately our team won it for the product &quot;Amplus&quot;, a SMART advertising platform designed to help businesses advertise their products.</p>
 </div>
-<div class="achievement-carousel" aria-label="Google I/O 2015 - Best Innovation images" data-carousel data-images="[{&quot;src&quot;:&quot;../achievement-images/google-io-2015.jpg&quot;,&quot;alt&quot;:&quot;Google I/O 2015 Best Innovation&quot;,&quot;fit&quot;:&quot;landscape&quot;,&quot;aspectRatio&quot;:&quot;748 / 421&quot;}]">
+<div class="achievement-carousel" aria-label="Google I/O 2015 - Best Innovation images" data-carousel data-images="[{&quot;src&quot;:&quot;../achievement-images/google-io-2015.jpg&quot;,&quot;alt&quot;:&quot;Google I/O 2015 Best Innovation&quot;,&quot;fit&quot;:&quot;landscape&quot;,&quot;aspectRatio&quot;:&quot;748 / 421&quot;},{&quot;src&quot;:&quot;../achievement-images/google-io-2015-medal.jpg&quot;,&quot;alt&quot;:&quot;Google I/O 2015 Best Innovation medal&quot;,&quot;fit&quot;:&quot;portrait&quot;,&quot;aspectRatio&quot;:&quot;1042 / 1858&quot;}]">
 <div class="carousel-frame">
 <div class="carousel-media landscape" data-fit="landscape" style="aspect-ratio: 748 / 421">
 <img class="carousel-image" src="../achievement-images/google-io-2015.jpg" alt="Google I/O 2015 Best Innovation" loading="lazy" />
+</div>
+<button class="carousel-button previous" type="button" aria-label="Previous image"><span aria-hidden="true">&lsaquo;</span></button>
+<button class="carousel-button next" type="button" aria-label="Next image"><span aria-hidden="true">&rsaquo;</span></button>
+</div>
+<div class="carousel-footer">
+<span data-carousel-count>1 / 2</span>
+<div class="carousel-dots" aria-hidden="true">
+<span class="active" data-dot="0"></span>
+<span data-dot="1"></span>
 </div>
 </div>
 </div>

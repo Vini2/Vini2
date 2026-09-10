@@ -46,7 +46,7 @@ order: 2
 <li>Metagenomics and microbial genome reconstruction</li>
 <li>Graph algorithms and network analysis</li>
 <li>Machine learning on graphs and sequence data</li>
-<li>Scientific data visualization and web-based analytics</li>
+<li>Scientific data visualisation and web-based analytics</li>
 <li>Scientific software engineering</li>
 </ul>
 </section>
@@ -120,7 +120,7 @@ order: 2
 <h3>GraphBin: Refined Binning of Metagenomic Contigs using Assembly Graphs</h3>
 <ul>
 <li>GraphBin is a metagenomic contig binning tool that makes use of the contig connectivity information from the assembly graph to bin contigs.</li>
-<li>It utilizes the binning result of an existing binning tool and a label propagation algorithm to correct mis-binned contigs and predict the labels of contigs that are discarded due to the short length.</li>
+<li>It utilises the binning result of an existing binning tool and a label propagation algorithm to correct mis-binned contigs and predict the labels of contigs that are discarded due to the short length.</li>
 <li>Technologies used: Python 3</li>
 <li><a href="https://github.com/Vini2/GraphBin" target="_blank" rel="noreferrer">View project</a></li>
 <li><a href="http://dx.doi.org/10.1093/bioinformatics/btaa180" target="_blank" rel="noreferrer">View Bioinformatics publication</a></li>

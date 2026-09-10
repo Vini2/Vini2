@@ -82,7 +82,7 @@ tags: ["Bioconda", "Bioinformatics", "Conda", "Programming", "Python"]
 
 <p>Next, you can specify a command to test the installation under <code>commands</code> in <code>tests</code>. I normally call the help command of my tool. Make sure to keep these test commands quick and simple.</p>
 
-<p>Then you can add details about the package such as the home page URL, documentation URL, license type, licence file and a summary of the tool under <code>about</code>.&nbsp;</p>
+<p>Then you can add details about the package such as the home page URL, documentation URL, licence type, licence file and a summary of the tool under <code>about</code>.&nbsp;</p>
 
 <p>Finally, you can add your GitHub username in<code>recipe-maintainers</code> and DOI of the publication in<code>identifiers</code> under <code>extra</code>.</p>
 

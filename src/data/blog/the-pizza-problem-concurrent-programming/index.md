@@ -576,7 +576,7 @@ tags: ["Concurrent Programming", "Condition Variables", "Locks", "Pizza Problem"
 </p></div>
 </div>
 <h2>Discussion</h2>
-<p>If a student finds that the pizza is gone, the student goes to sleep until another pizza arrives. Once the pizza is delivered, the delivery person should wake up all the sleeping students. In order to simulate this behavior, we have to use a special type of construct named <strong>Condition Variable</strong>.</p>
+<p>If a student finds that the pizza is gone, the student goes to sleep until another pizza arrives. Once the pizza is delivered, the delivery person should wake up all the sleeping students. In order to simulate this behaviour, we have to use a special type of construct named <strong>Condition Variable</strong>.</p>
 <h3>What are Condition Variable?</h3>
 <p>Condition variables allow to check for a condition, and makes a thread wait until the condition is satisfied. When the condition is satisfied, it will wake up the sleeping thread. There is a special method to broadcast and wake up all the sleeping threads as well.</p>
 <p>In Java, you can create conditions using the <strong>newCondition</strong> method of the Lock (lines 41 and 42). A condition is a variable of type <strong>Condition</strong>. You can make the current thread wait on the condition using the <strong>await()</strong> method and you can signal threads using <strong>signal()</strong> and <strong>signalAll()</strong> methods. The <strong>signalAll()</strong> method wakes up all the threads waiting on the condition variable.</p>
@@ -585,7 +585,7 @@ tags: ["Concurrent Programming", "Condition Variables", "Locks", "Pizza Problem"
 <p>The first student to see that the slice count is zero, wakes up the pizza delivery thread. This is done at line 56; <strong>orderPizza<span>.</span>signal()</strong>. Then he goes to sleep like other students at line 60.</p>
 <p>Once pizza is delivered and the plate is full, the pizza delivery thread wakes up all the sleeping student threads. This is done at line 72; <strong>deliverPizza<span>.</span>signalAll()</strong>. This is a broadcast signal for all the student threads to wake up.</p>
 <h2>Resources</h2>
-<p>You can find the complete organized solution in my GitHub repository <a href="https://github.com/Vini2/PizzaProblem" target="_blank" rel="noopener">here</a>.</p>
+<p>You can find the complete organised solution in my GitHub repository <a href="https://github.com/Vini2/PizzaProblem" target="_blank" rel="noopener">here</a>.</p>
 <h2>References</h2>
 <p>Condition (Java Platform SE 7) &#8211; <a href="https://docs.oracle.com/javase/7/docs/api/java/util/concurrent/locks/Condition.html" target="_blank" rel="noopener">https://docs.oracle.com/javase/7/docs/api/java/util/concurrent/locks/Condition.html</a></p>
 <p>Java Concurrency &#8211; Part 5 : Monitors (Locks and Conditions) &#8211; <a href="https://baptiste-wicht.com/posts/2010/09/java-concurrency-part-5-monitors-locks-and-conditions.html" target="_blank" rel="noopener">https://baptiste-wicht.com/posts/2010/09/java-concurrency-part-5-monitors-locks-and-conditions.html</a></p>

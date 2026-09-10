@@ -30,7 +30,7 @@ Sum of pairs: <strong>-1 + 1 + 6 = 6</strong></pre>
 <p id="8031">Sum of 2nd Col = score (K, R) + score (R, H) + score (K, H) = 2+0+-1 = 1</p>
 <p id="96dc">The goal of <strong>MSA</strong> is to achieve the <strong>maximum Sum of Pairs</strong>.</p>
 <h2 id="2639">Types of Multiple Sequence Alignment</h2>
-<p id="4a62">Aligning three or more sequences can be difficult and are almost always time-consuming to align manually. Hence computational algorithms are used to produce and analyze these alignments. Most <strong>MSA</strong> algorithms use <a href="https://en.wikipedia.org/wiki/Dynamic_programming" target="_blank" rel="noopener">dynamic programming</a> and <a title="Heuristic" href="https://en.wikipedia.org/wiki/Heuristic" target="_blank" rel="noopener">heuristic</a> methods.</p>
+<p id="4a62">Aligning three or more sequences can be difficult and are almost always time-consuming to align manually. Hence computational algorithms are used to produce and analyse these alignments. Most <strong>MSA</strong> algorithms use <a href="https://en.wikipedia.org/wiki/Dynamic_programming" target="_blank" rel="noopener">dynamic programming</a> and <a title="Heuristic" href="https://en.wikipedia.org/wiki/Heuristic" target="_blank" rel="noopener">heuristic</a> methods.</p>
 <p id="450f">Given below are <strong>MSA</strong> techniques which use heuristic methods.</p>
 <ol>
 <li id="57f6">Progressive Alignment Construction</li>
@@ -47,7 +47,7 @@ Sum of pairs: <strong>-1 + 1 + 6 = 6</strong></pre>
 </ol>
 <h3 id="ea3f"><strong>Iterative Alignment Construction</strong></h3>
 <p id="5003">This method consists of a set of methods to produce <strong>MSAs</strong> while reducing the errors inherent in progressive methods. They work similarly to progressive methods, but repeatedly realign the initial sequences as well as add new sequences to the growing <strong>MSA</strong>.</p>
-<p id="e9cd">The software package <a href="http://www.genome.jp/tools/prrn/" target="_blank" rel="nofollow noopener noopener noopener"><strong>PRRN/PRRP</strong></a> is based on a <a title="Hill-climbing algorithm" href="https://en.wikipedia.org/wiki/Hill-climbing_algorithm" target="_blank" rel="noopener">hill-climbing algorithm</a> to optimize its <strong>MSA</strong> alignment score.</p>
+<p id="e9cd">The software package <a href="http://www.genome.jp/tools/prrn/" target="_blank" rel="nofollow noopener noopener noopener"><strong>PRRN/PRRP</strong></a> is based on a <a title="Hill-climbing algorithm" href="https://en.wikipedia.org/wiki/Hill-climbing_algorithm" target="_blank" rel="noopener">hill-climbing algorithm</a> to optimise its <strong>MSA</strong> alignment score.</p>
 <h3 id="9167">Block-base Alignment</h3>
 <p id="037d">This method divides the sequences into blocks and tries to identify blocks of un-gapped alignments shared by many sequences.</p>
 <p id="495e"><a href="https://www.ncbi.nlm.nih.gov/pubmed/10222408" target="_blank" rel="noopener"><strong>DIALIGN2</strong></a> is a popular block-base alignment approach .</p>

@@ -8,10 +8,10 @@ featuredImage: "/blog-images/outer-space-databases-is-it-possible/db-on-moon.png
 categories: ["Data", "Databases", "Space"]
 tags: ["Databases", "Tech"]
 ---
-<p>Have you ever imagined how it will be to have databases on different planets? How long will it take for queries to process and return results among databases on different planets? I was just wondering and thought to let my imagination carry on the rest. It is true that the only planet humans have set foot on, other than Earth is the Moon, which is Earth’s only permanent natural satellite. So as a start, I thought of setting up an imaginary data center on Moon to communicate with a data center on Earth and do a bit of math…</p>
+<p>Have you ever imagined how it will be to have databases on different planets? How long will it take for queries to process and return results among databases on different planets? I was just wondering and thought to let my imagination carry on the rest. It is true that the only planet humans have set foot on, other than Earth is the Moon, which is Earth’s only permanent natural satellite. So as a start, I thought of setting up an imaginary data centre on Moon to communicate with a data centre on Earth and do a bit of maths…</p>
 <p>Following are the data I have considered.</p>
 <ul>
-<li>Distance between Earth and Moon (center to center)= 384,400 km</li>
+<li>Distance between Earth and Moon (centre to centre)= 384,400 km</li>
 <li>Radius of Earth = 6,371 km</li>
 <li>Radius of Moon = 1,737 km</li>
 </ul>
@@ -20,11 +20,11 @@ tags: ["Databases", "Tech"]
 = Distance between Earth and Moon — (Radius of Earth + Radius of Moon)<br />
 = 384,400 km — (6,371 km + 1,737 km) = 376,292 km</p>
 <p>In order to carry out communication between data centers I have considered electromagnetic waves as the medium. Using cables is not practical as eventually it will wrap around both planets and will become a disaster. However, if we imagine such a situation for a moment, the minimum length of cables that will be required is 376,292 km. You can take this cable, go around Earth and wrap it along the equator for 9 times! I simply cannot imagine manufacturing such a long length continuously. So I’m going to skip cables and go with EM.</p>
-<p>The speed of electromagnetic waves in a vacuum is 299,792,458 m/s. So now comes the fun part. Assume the lunar data center is right above the Earth data center and you are doing a SELECT query on one of the lunar databases. Let’s see how long it will take for a query made from Earth to reach the lunar data center via space.</p>
+<p>The speed of electromagnetic waves in a vacuum is 299,792,458 m/s. So now comes the fun part. Assume the lunar data centre is right above the Earth data centre and you are doing a SELECT query on one of the lunar databases. Let’s see how long it will take for a query made from Earth to reach the lunar data centre via space.</p>
 <p>Time taken for a query to reach Moon = 376,292 km / 299,792.458 km/s = 1.255 s</p>
-<p>It can be assumed that the SELECT query can be made and results can be brought back to the Earth data center in under 3 seconds.</p>
-<p>When considering Mars, Earth’s neighbor, it will take around 25 minutes for the results to return to Earth. You can initiate the communication and go have a snack. By the time you come back your results will be received…!</p>
-<p>My imaginary data center on Moon seems reasonable when considering the distance EM waves have to travel. However, there are feasibility issues. The major issue is the problem of heat transfer. Since there is no atmosphere on Moon, the data center would have to radiate heat like the ISS or use heat sinks like water.</p>
+<p>It can be assumed that the SELECT query can be made and results can be brought back to the Earth data centre in under 3 seconds.</p>
+<p>When considering Mars, Earth’s neighbour, it will take around 25 minutes for the results to return to Earth. You can initiate the communication and go have a snack. By the time you come back your results will be received…!</p>
+<p>My imaginary data centre on Moon seems reasonable when considering the distance EM waves have to travel. However, there are feasibility issues. The major issue is the problem of heat transfer. Since there is no atmosphere on Moon, the data centre would have to radiate heat like the ISS or use heat sinks like water.</p>
 <p>Let’s hope that technology will develop in the future and scientists will find means to send information at speeds greater than that of light. Then we can consider having data centers on distant planets…! Till then,</p>
 <blockquote><p>Let your imagination do the implementation…</p></blockquote>
 <p>&nbsp;</p>
