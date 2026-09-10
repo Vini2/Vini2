@@ -52,102 +52,73 @@ order: 2
 </section>
 
 <section class="content-block">
-<h2>Published Projects</h2>
+<h2>Research Themes and Projects</h2>
 <div class="project-list">
-<h3>agtools: A Software Framework to Manipulate Assembly Graphs</h3>
+<p>My research focuses on developing computational methods, graph algorithms, visual analytics approaches, and open-source scientific software for analysing biological data. The projects below are organised by my main research themes.</p>
+
+<h3>Graph-based metagenomic binning</h3>
+<p>Assembly graphs preserve relationships between contigs that are often lost when sequences are analysed in isolation. My work uses this graph structure, together with sequence composition, coverage, and marker-gene information, to improve metagenomic contig binning and the recovery of metagenome-assembled genomes.</p>
 <ul>
-<li>agtools is a Python framework for manipulating assembly graphs for downstream metagenomic applications, with a focus on the Graphical Fragment Assembly (GFA) format.</li>
-<li>Technologies used: Python 3</li>
-<li><a href="https://github.com/Vini2/agtools" target="_blank" rel="noreferrer">View project</a></li>
-<li><a href="https://doi.org/10.1093/bioadv/vbag126" target="_blank" rel="noreferrer">View Bioinformatics Advances journal publication</a></li>
+<li><a href="https://doi.org/10.1093/bioinformatics/btaa180" target="_blank" rel="noreferrer">GraphBin</a> introduced assembly graph-based refinement for metagenomic contig binning.</li>
+<li><a href="https://doi.org/10.1186/s13015-021-00185-6" target="_blank" rel="noreferrer">GraphBin2</a> extended this work to refined and overlapped binning, including contigs shared between species.</li>
+<li><a href="https://doi.org/10.1089/cmb.2022.0262" target="_blank" rel="noreferrer">MetaCoAG</a> combines composition, coverage, marker genes, and assembly graph connectivity for stand-alone contig binning.</li>
+<li><a href="https://doi.org/10.21105/joss.07713" target="_blank" rel="noreferrer">GraphBin-Tk</a> brings GraphBin, GraphBin2, MetaCoAG, visualisation, and evaluation into one assembly graph-based binning toolkit.</li>
+<li><a href="https://doi.org/10.1093/bioadv/vbag126" target="_blank" rel="noreferrer">agtools</a> supports downstream metagenomic methods by providing reusable tools for working with assembly graphs in GFA format.</li>
+</ul>
+<figure class="research-theme-figure">
+<img src="../research-images/graphbin-figure.png" alt="GraphBin assembly graph-based metagenomic binning workflow overview" loading="lazy" />
+</figure>
+
+<h3>Geometry-based metagenomic binning</h3>
+<p>Metagenomic sequences can also be grouped using patterns in nucleotide composition and geometric structure in feature space, where dimensionality can grow rapidly as oligonucleotide size increases. My work in this area explores reference-free binning approaches that efficiently separate contigs in these increasingly high-dimensional compositional feature spaces.</p>
+<ul>
+<li><a href="https://doi.org/10.1016/j.compbiolchem.2022.107734" target="_blank" rel="noreferrer">CH-Bin</a> is a convex hull-based approach for binning metagenomic contigs using composition-derived features.</li>
+</ul>
+<figure class="research-theme-figure">
+<img src="../research-images/ch-bin-figure.png" alt="CH-Bin geometry-based metagenomic binning overview" loading="lazy" />
+</figure>
+
+<h3>Reconstruction of complete bacteriophage and viral genomes from metagenomes</h3>
+<p>Viral metagenomic assemblies are often fragmented and difficult to resolve. I develop graph-based approaches for reconstructing high-quality and contiguous bacteriophage and viral genomes using assembly graphs, flow network models and integer linear programming.</p>
+<ul>
+<li><a href="https://github.com/Vini2/phables" target="_blank" rel="noreferrer">Phables</a> resolves bacteriophage genomes from fragmented viral metagenomic assemblies using assembly graphs and flow decomposition.</li>
+<li><a href="https://github.com/Vini2/reneo" target="_blank" rel="noreferrer">Reneo</a> continues this line of work by untangling high-quality genomes from viral communities in metagenomes.</li>
+</ul>
+<figure class="research-theme-figure">
+<img src="../research-images/phables-figure.png" alt="Phables workflow and bacteriophage genome reconstruction overview" loading="lazy" />
+</figure>
+
+<h3>Graph machine learning and representation learning of microbial communities</h3>
+<p>Microbial community data can be represented as graphs that capture relationships between sequences, organisms, and genomic context. I am interested in graph machine learning and representation learning methods for modelling metagenomic assembly graphs and sequence-derived graph structures.</p>
+<ul>
+<li><a href="https://ojs.aaai.org/index.php/AAAI/article/view/20388" target="_blank" rel="noreferrer">RepBin</a> explores constraint-based graph representation learning for metagenomic binning.</li>
+<li><a href="https://openreview.net/forum?id=vBw8JGBJWj" target="_blank" rel="noreferrer">Unitig-level assembly graph encoding</a> investigates graph representations with heterophilous constraints for contig binning.</li>
 </ul>
 
-<h3>GraphBin-Viz: Interactive Visual Analytics for Exploring Graph-based Metagenomic Binning</h3>
+<h3>Taxonomic annotation, metaproteomics, and functional interpretation</h3>
+<p>Genome reconstruction is most useful when it supports downstream biological interpretation. I work on methods that connect metagenomic data with taxonomic annotation, protein sequence database construction, and metaproteomic analysis.</p>
 <ul>
-<li>GraphBin-Viz is a browser-based interactive visual analytics framework for exploring and comparing initial metagenomic binning results and GraphBin-refined binning results on assembly graphs.</li>
-<li>Technologies used: Python 3, Pyodide, React JS, HTML5, CSS3</li>
-<li><a href="https://github.com/metagentools/graphbin-viz" target="_blank" rel="noreferrer">View project</a></li>
+<li><a href="https://github.com/metagentools/ConDiGA" target="_blank" rel="noreferrer">ConDiGA</a> is a contigs directed gene annotation pipeline for building accurate protein sequence databases from metagenomic data.</li>
 </ul>
 
-<h3>GraphBin-Tk: assembly graph-based metagenomic binning toolkit</h3>
+<h3>Visual analytics of biological data</h3>
+<p>Complex biological datasets often need to be explored visually as well as computationally. I build interactive and browser-based tools for inspecting graph-based results, comparing outputs, and supporting visual interpretation of bioinformatics analyses.</p>
 <ul>
-<li>GraphBin-Tk combines the assembly graph-based metagenomic bin-refinement and binning techniques of GraphBin, GraphBin2 and MetaCoAG along with additional processing functionalities to visualise and evaluate results, into one comprehensive toolkit.</li>
-<li>Technologies used: Python 3</li>
-<li><a href="https://github.com/metagentools/gbintk" target="_blank" rel="noreferrer">View project</a></li>
-<li><a href="https://doi.org/10.21105/joss.07713" target="_blank" rel="noreferrer">View JOSS publication</a></li>
+<li><a href="https://github.com/metagentools/graphbin-viz" target="_blank" rel="noreferrer">GraphBin-Viz</a> provides interactive visual analytics for comparing metagenomic binning results on assembly graphs.</li>
+<li><a href="https://vini2.github.io/phagescale/" target="_blank" rel="noreferrer">PhageScale</a> allows the measurement of dimensions of bacteriophages (capsid size, tail length, etc.) from transmission electron microscopy (TEM) images.</li>
 </ul>
 
-<h3>ConDiGA: Contigs Directed Gene Annotation</h3>
+<h3>Scientific workflows</h3>
+<p>Bioinformatics analyses depend on computational workflows that need to be reproducible, inspectable, and practical to run. My earlier work includes systems for designing, executing, monitoring, and managing analysis workflows.</p>
 <ul>
-<li>ConDiGA (<strong>Con</strong>tigs <strong>Di</strong>rected <strong>G</strong>ene <strong>A</strong>nnotation) is an accurate taxonomic annotation pipeline from metagenomic data to construct accurate protein sequence databases for deep metaproteomic coverage.</li>
-<li>Technologies used: Python 3</li>
-<li><a href="https://github.com/metagentools/ConDiGA" target="_blank" rel="noreferrer">View project</a></li>
-<li><a href="https://doi.org/10.1186/s40168-024-01775-3" target="_blank" rel="noreferrer">View Microbiome journal publication</a></li>
+<li><a href="https://github.com/anuradhawick/bio-workflow" target="_blank" rel="noreferrer">An interactive workflow solution for bioinformatics analyses</a> explored web-based workflow creation for biologists and bioinformaticians with different levels of programming expertise.</li>
+<li><a href="https://github.com/anuradhawick/pipe-line-monitor" target="_blank" rel="noreferrer">Pipeline Monitor</a> supports graph-like execution of command pipelines in high-performance computing environments.</li>
 </ul>
 
-<h3>Phables: from fragmented assemblies to high-quality bacteriophage genomes</h3>
+<h3>Change detection and notification of webpages</h3>
+<p>My undergraduate research explored how to detect and track changes across distributed web-based information sources, then notify users when meaningful updates occur.</p>
 <ul>
-<li>Phables is a tool developed to resolve bacteriophage genomes using assembly graphs of viral metagenomic data.</li>
-<li>Phables models phage-like components in the viral metagenomic assembly as flow networks, models as a minimum flow decomposition problem and resolves genomic paths corresponding to flow paths determined.</li>
-<li>Technologies used: Python 3, Snaketool</li>
-<li><a href="https://github.com/Vini2/phables" target="_blank" rel="noreferrer">View project</a></li>
-<li><a href="https://doi.org/10.1093/bioinformatics/btad586" target="_blank" rel="noreferrer">View Bioinformatics journal publication</a></li>
-<li><a href="https://youtu.be/Sl1NmvhHDZE" target="_blank" rel="noreferrer">View ABACBS 2023 conference presentation</a></li>
-</ul>
-
-<h3>MetaCoAG: Binning Metagenomic Contigs via Composition, Coverage and Assembly Graphs</h3>
-<ul>
-<li>MetaCoAG is an NGS data-based metagenomic contig binning tool that makes use of the connectivity information found in assembly graphs, apart from the composition and coverage information.</li>
-<li>MetaCoAG makes use of single-copy marker genes along with a graph matching technique and a label propagation technique to bin contigs.</li>
-<li>Technologies used: Python 3</li>
-<li><a href="https://github.com/Vini2/MetaCoAG" target="_blank" rel="noreferrer">View project</a></li>
-<li><a href="https://youtu.be/KovHKwy89uw" target="_blank" rel="noreferrer">View RECOMB 2022 conference presentation</a></li>
-<li><a href="https://doi.org/10.1007/978-3-031-04749-7_5" target="_blank" rel="noreferrer">View RECOMB 2022 conference publication</a></li>
-<li><a href="https://doi.org/10.1089/cmb.2022.0262" target="_blank" rel="noreferrer">View extended journal publication</a></li>
-</ul>
-
-<h3>GraphBin2: Refined and Overlapped Binning of Metagenomic Contigs Using Assembly Graphs</h3>
-<ul>
-<li>GraphBin2 is an extension of GraphBin which refines the binning results obtained from existing tools and can assign contigs to multiple bins.</li>
-<li>GraphBin2 uses the connectivity and coverage information from assembly graphs to adjust existing binning results on contigs and to infer contigs shared by multiple species.</li>
-<li>Technologies used: Python 3</li>
-<li><a href="https://github.com/Vini2/GraphBin2" target="_blank" rel="noreferrer">View project</a></li>
-<li><a href="https://youtu.be/VHKTUu79Ycs" target="_blank" rel="noreferrer">View WABI 2020 conference presentation</a></li>
-<li><a href="https://doi.org/10.4230/LIPIcs.WABI.2020.8" target="_blank" rel="noreferrer">View WABI 2020 conference publication</a></li>
-<li><a href="https://doi.org/10.1186/s13015-021-00185-6" target="_blank" rel="noreferrer">View extended journal publication</a></li>
-</ul>
-
-<h3>GraphBin: Refined Binning of Metagenomic Contigs using Assembly Graphs</h3>
-<ul>
-<li>GraphBin is a metagenomic contig binning tool that makes use of the contig connectivity information from the assembly graph to bin contigs.</li>
-<li>It utilises the binning result of an existing binning tool and a label propagation algorithm to correct mis-binned contigs and predict the labels of contigs that are discarded due to the short length.</li>
-<li>Technologies used: Python 3</li>
-<li><a href="https://github.com/Vini2/GraphBin" target="_blank" rel="noreferrer">View project</a></li>
-<li><a href="http://dx.doi.org/10.1093/bioinformatics/btaa180" target="_blank" rel="noreferrer">View Bioinformatics publication</a></li>
-<li><a href="http://bdsi.anu.edu.au/news-events/events/bdsi-interactive-seminar-series-seminar-2-sept" target="_blank" rel="noreferrer">Seminar Talk</a></li>
-</ul>
-
-<h3>Pipeline Monitor</h3>
-<ul>
-<li>A scheduler to execute and run a pipeline of commands in a supercomputing facility.</li>
-<li>The program can schedule a graph-like execution sequence.</li>
-<li><a href="https://github.com/anuradhawick/pipe-line-monitor" target="_blank" rel="noreferrer">View project</a></li>
-</ul>
-
-<h3>An Interactive Workflow Solution to Support Bioinformatics Analyses</h3>
-<ul>
-<li>A generic software framework that can be used to construct bioinformatics workflows by both biologists and bioinformaticians with any level of programming expertise.</li>
-<li>This framework incorporates novel web application development technologies to support specific requirements of bioinformatics software for workflow creation.</li>
-<li><a href="https://github.com/anuradhawick/bio-workflow" target="_blank" rel="noreferrer">View project</a></li>
-<li><a href="https://doi.org/10.1109/TNB.2018.2837122" target="_blank" rel="noreferrer">View publication</a></li>
-</ul>
-
-<h3>Change Detection in Distributed Digital Collections</h3>
-<ul>
-<li>An efficient change detection and notification system to track changes occurring in web pages and notify interested users.</li>
-<li>Final Year Project carried out for the completion of the degree BSc. Engineering (Hons.) in Computer Science and Engineering.</li>
-<li>Technologies used include Java, H2O.ai, Jsoup, AngularJS, PHP, HTML, CSS, MySQL</li>
-<li><a href="https://dl.acm.org/doi/abs/10.1145/3369876" target="_blank" rel="noreferrer">View ACM CSUR survey paper</a></li>
+<li><a href="https://dl.acm.org/doi/abs/10.1145/3369876" target="_blank" rel="noreferrer">Change detection in distributed digital collections</a> is a review paper on approaches for detecting, tracking, and reporting changes in distributed digital collections and web pages.</li>
 </ul>
 </div>
 </section>
