@@ -3,7 +3,7 @@ slug: "software"
 label: "Software"
 kicker: "Open Tools"
 title: "Software"
-intro: "Here is a list of the research software I have developed around metagenomic binning, viral genome reconstruction, and scientific workflows since my PhD."
+intro: "Here is a list of the research software I have developed around metagenomic binning, viral genome reconstruction, scientific workflows, scientific data visualisation and web-based analytics since my PhD."
 order: 3
 ---
 <section class="content-block">
@@ -27,11 +27,35 @@ order: 3
 </article>
 <article class="item-card software-card">
 <div class="software-media">
+<img class="software-thumb" src="../software-logos/graphbin-tk-logo.png" alt="GraphBin-Tk software thumbnail" loading="lazy" />
+</div>
+<h3>GraphBin-Tk</h3>
+<p>An assembly graph-based metagenomic binning toolkit that combines GraphBin, GraphBin2, MetaCoAG, visualisation, and evaluation.</p>
+<a href="https://github.com/metagentools/gbintk" target="_blank" rel="noreferrer">View project</a>
+</article>
+<article class="item-card software-card">
+<div class="software-media">
+<img class="software-thumb" src="../software-logos/graphbin-viz-logo.png" alt="GraphBin-Viz software thumbnail" loading="lazy" />
+</div>
+<h3>GraphBin-Viz</h3>
+<p>A browser-based interactive visual analytics framework for exploring and comparing metagenomic binning results on assembly graphs.</p>
+<a href="https://github.com/metagentools/graphbin-viz" target="_blank" rel="noreferrer">View project</a>
+</article>
+<article class="item-card software-card">
+<div class="software-media">
 <img class="software-thumb" src="../software-logos/metacoag-logo.png" alt="MetaCoAG software thumbnail" loading="lazy" />
 </div>
 <h3>MetaCoAG</h3>
 <p>A stand-alone metagenomic contig-binning tool that uses assembly graphs alongside composition and coverage.</p>
 <a href="https://github.com/metagentools/MetaCoAG" target="_blank" rel="noreferrer">View project</a>
+</article>
+<article class="item-card software-card">
+<div class="software-media">
+<img class="software-thumb" src="../software-logos/agtools-logo.png" alt="agtools software thumbnail" loading="lazy" />
+</div>
+<h3>agtools</h3>
+<p>A Python framework for manipulating assembly graphs for downstream metagenomic applications, with a focus on the GFA format.</p>
+<a href="https://github.com/Vini2/agtools" target="_blank" rel="noreferrer">View project</a>
 </article>
 <article class="item-card software-card">
 <div class="software-media">
