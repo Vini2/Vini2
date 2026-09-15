@@ -56,7 +56,7 @@ order: 2
 <div class="project-list">
 <p>My research focuses on developing computational methods, graph algorithms, visual analytics approaches, and open-source scientific software for analysing biological data. The projects below are organised by my main research themes.</p>
 
-<h3>Graph-based metagenomic binning</h3>
+<h3>Graph-based metagenomic binning, bin-refinement and contamination detection</h3>
 <p>Assembly graphs preserve relationships between contigs that are often lost when sequences are analysed in isolation. My work uses this graph structure, together with sequence composition, coverage, and marker-gene information, to improve metagenomic contig binning and the recovery of metagenome-assembled genomes.</p>
 <ul>
 <li><a href="https://doi.org/10.1093/bioinformatics/btaa180" target="_blank" rel="noreferrer">GraphBin</a> introduced assembly graph-based refinement for metagenomic contig binning.</li>
@@ -67,6 +67,7 @@ order: 2
 </ul>
 <figure class="research-theme-figure">
 <img src="../research-images/graphbin-figure.png" alt="GraphBin assembly graph-based metagenomic binning workflow overview" loading="lazy" />
+<figcaption>Image source: <a href="https://doi.org/10.1093/bioinformatics/btaa180" target="_blank" rel="noreferrer">GraphBin paper</a></figcaption>
 </figure>
 
 <h3>Geometry-based metagenomic binning</h3>
@@ -76,6 +77,7 @@ order: 2
 </ul>
 <figure class="research-theme-figure">
 <img src="../research-images/ch-bin-figure.png" alt="CH-Bin geometry-based metagenomic binning overview" loading="lazy" />
+<figcaption>Image source: <a href="https://medium.com/computational-biology/composition-based-clustering-of-metagenomic-sequences-4e0b7e01c463" target="_blank" rel="noreferrer">Medium article</a></figcaption>
 </figure>
 
 <h3>Reconstruction of complete bacteriophage and viral genomes from metagenomes</h3>
@@ -86,6 +88,7 @@ order: 2
 </ul>
 <figure class="research-theme-figure">
 <img src="../research-images/phables-figure.png" alt="Phables workflow and bacteriophage genome reconstruction overview" loading="lazy" />
+<figcaption>Image source: <a href="https://doi.org/10.1093/bioinformatics/btad586" target="_blank" rel="noreferrer">Phables paper</a></figcaption>
 </figure>
 
 <h3>Graph machine learning and representation learning of microbial communities</h3>
@@ -100,6 +103,10 @@ order: 2
 <ul>
 <li><a href="https://github.com/metagentools/ConDiGA" target="_blank" rel="noreferrer">ConDiGA</a> is a contigs directed gene annotation pipeline for building accurate protein sequence databases from metagenomic data.</li>
 </ul>
+<figure class="research-theme-figure">
+<img src="../research-images/condiga-figure.png" alt="ConDiGA taxonomic annotation and metaproteomics workflow overview" loading="lazy" />
+<figcaption>Image source: <a href="https://doi.org/10.1186/s40168-024-01775-3" target="_blank" rel="noreferrer">ConDiGA paper</a></figcaption>
+</figure>
 
 <h3>Visual analytics of biological data</h3>
 <p>Complex biological datasets often need to be explored visually as well as computationally. I build interactive and browser-based tools for inspecting graph-based results, comparing outputs, and supporting visual interpretation of bioinformatics analyses.</p>
@@ -119,6 +126,11 @@ order: 2
 <p>My undergraduate research explored how to detect and track changes across distributed web-based information sources, then notify users when meaningful updates occur.</p>
 <ul>
 <li><a href="https://dl.acm.org/doi/abs/10.1145/3369876" target="_blank" rel="noreferrer">Change detection in distributed digital collections</a> is a review paper on approaches for detecting, tracking, and reporting changes in distributed digital collections and web pages.</li>
+<li><a href="https://github.com/Vini2/Change-Detection-And-Notification-Visualization-Service" target="_blank" rel="noreferrer">Change Detection and Notification Visualization Service</a> is a web-based service for visualising detected changes and notifications for monitored webpages.</li>
 </ul>
+<figure class="research-theme-figure">
+<img src="../research-images/change-detection-figure.png" alt="Organization of the change detection and notification survey" loading="lazy" />
+<figcaption>Image source: <a href="https://ws-dl.blogspot.com/2020/02/2020-02-14-acm-computing-surveys.html" target="_blank" rel="noreferrer">WS-DL blog announcement</a></figcaption>
+</figure>
 </div>
 </section>

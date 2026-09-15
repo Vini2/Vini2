@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">My Project Euler Solutions</title>
+  <desc id="desc">A dark code-style thumbnail for a Project Euler solutions repository.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#07111f" />
+      <stop offset="0.56" stop-color="#10243a" />
+      <stop offset="1" stop-color="#143f4c" />
+    </linearGradient>
+    <linearGradient id="accent" x1="0" x2="1">
+      <stop offset="0" stop-color="#6fb7ff" />
+      <stop offset="1" stop-color="#21d59b" />
+    </linearGradient>
+    <filter id="soft-shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="26" flood-color="#000" flood-opacity="0.3" />
+    </filter>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg)" />
+  <g opacity="0.2" stroke="#dceeff" stroke-width="1">
+    <path d="M0 125h1200M0 245h1200M0 365h1200M0 485h1200M0 605h1200" />
+    <path d="M130 0v675M310 0v675M490 0v675M670 0v675M850 0v675M1030 0v675" />
+  </g>
+  <g fill="none" stroke="url(#accent)" stroke-linecap="round" stroke-width="16" opacity="0.9">
+    <path d="M154 474c84-164 179-249 286-256s175 58 205 156 96 124 197 79 163-121 204-228" />
+    <path d="M238 214l56 56-56 56" />
+    <path d="M962 214h92" />
+  </g>
+  <g filter="url(#soft-shadow)">
+    <rect x="134" y="228" width="932" height="250" rx="28" fill="#f7fbff" opacity="0.96" />
+    <text x="600" y="326" fill="#10243a" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="72" font-weight="800" text-anchor="middle">My Project Euler</text>
+    <text x="600" y="406" fill="#1d62a7" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="72" font-weight="800" text-anchor="middle">Solutions</text>
+  </g>
+  <g fill="#b8dcff" font-family="SFMono-Regular, Consolas, Liberation Mono, monospace" font-size="30" opacity="0.82">
+    <text x="64" y="88">n = 1, 2, 3, ...</text>
+    <text x="842" y="596">sum :: primes -> answer</text>
+  </g>
+</svg>
