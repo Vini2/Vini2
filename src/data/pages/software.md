@@ -145,5 +145,18 @@ order: 3
 </dl>
 <a href="https://github.com/Vini2/phagescale" target="_blank" rel="noreferrer">View project</a>
 </article>
+<article class="item-card software-card">
+<div class="software-media">
+<img class="software-thumb" src="../software-logos/phrog-molstar-viewer-web-app.png" alt="PHROG Mol* Viewer web application thumbnail" loading="lazy" />
+</div>
+<h3>PHROG Mol* Viewer</h3>
+<p>A web app for viewing PHROG protein cluster representative structures using the PDBe Mol* molecular viewer.</p>
+<dl class="software-stats" aria-label="PHROG Mol* Viewer web application stats">
+<div><dt><i class="fa-solid fa-star" aria-hidden="true"></i><span class="sr-only">Stars</span></dt><dd>0</dd></div>
+<div><dt><i class="fa-solid fa-code-fork" aria-hidden="true"></i><span class="sr-only">Forks</span></dt><dd>0</dd></div>
+<div class="software-stat-action"><dt><a class="software-stat-link" href="https://vini2.github.io/phrog-molstar-viewer/" target="_blank" rel="noreferrer"><i class="fa-solid fa-globe" aria-hidden="true"></i><span class="sr-only">Live app</span></a></dt><dd><a class="software-stat-link" href="https://vini2.github.io/phrog-molstar-viewer/" target="_blank" rel="noreferrer">Live</a></dd></div>
+</dl>
+<a href="https://github.com/Vini2/phrog-molstar-viewer" target="_blank" rel="noreferrer">View project</a>
+</article>
 </div>
 </section>
