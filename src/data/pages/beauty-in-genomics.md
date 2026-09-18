@@ -24,6 +24,15 @@ DOI: <a href="https://doi.org/10.1093/bioinformatics/btad586" target="_blank" re
 </div>
 </article>
 <article class="item-card genomics-card">
+<img class="genomics-card-image" src="../genomics-images/simhc-plus-metaspades.png" alt="Assembly graph of the simHC+ metagenome containing 100 bacterial species, with colourful interconnected clusters and smaller disconnected components." width="1894" height="1792" loading="lazy" />
+<div class="genomics-card-copy">
+<h3>simHC+ metaSPAdes</h3>
+<p>This is the assembly graph of a simulated metagenome with 100 bacterial species. This dataset was simulated based on the original proportions provided in the <a href="https://doi.org/10.1186/2049-2618-2-26" target="_blank" rel="noreferrer">MaxBin</a> paper.</p>
+<p>This dataset was used to benchmark MetaCoAG.<br />
+DOI: <a href="https://doi.org/10.1007/978-3-031-04749-7_5" target="_blank" rel="noreferrer">10.1007/978-3-031-04749-7_5</a></p>
+</div>
+</article>
+<article class="item-card genomics-card">
 <img class="genomics-card-image" src="../genomics-images/esc-metaspades.png" alt="Colourful assembly graph of the ESC simulated bacterial metagenome assembled with metaSPAdes, showing looping paths and interconnected clusters." width="1960" height="1840" loading="lazy" />
 <div class="genomics-card-copy">
 <h3>ESC metaSPAdes</h3>
