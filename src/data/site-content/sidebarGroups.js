@@ -17,14 +17,6 @@ export const sidebarGroups = [
       {
         "label": "Teaching",
         "slug": "teaching"
-      },
-      {
-        "label": "Sandbox",
-        "slug": "sandbox"
-      },
-      {
-        "label": "Beauty in Genomics",
-        "slug": "beauty-in-genomics"
       }
     ]
   },
@@ -54,6 +46,19 @@ export const sidebarGroups = [
       {
         "label": "Reneo",
         "href": "https://github.com/Vini2/reneo"
+      }
+    ]
+  },
+  {
+    "title": "After Hours",
+    "links": [
+      {
+        "label": "Sandbox",
+        "slug": "sandbox"
+      },
+      {
+        "label": "Beauty in Genomics",
+        "slug": "beauty-in-genomics"
       }
     ]
   }

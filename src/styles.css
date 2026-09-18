@@ -372,6 +372,15 @@ time {
   font-size: 0.98rem;
 }
 
+.side-section-compact ul {
+  gap: 0;
+}
+
+.side-section-compact li a {
+  padding-block: 2px;
+  line-height: 1.25;
+}
+
 .side-section li a:hover,
 .side-section li a.active {
   border-color: var(--accent-line);
