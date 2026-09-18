@@ -7,7 +7,7 @@ const { title = 'Vijini Mallawaarachchi', activeSlug = 'home' } = Astro.props
 const description =
   'Vijini Mallawaarachchi - bioinformatics research, software, publications, achievements, and writing.'
 const topNavPages = pages.filter(
-  (page) => !['achievements', 'talks', 'teaching', 'sandbox'].includes(page.slug)
+  (page) => !['achievements', 'talks', 'teaching', 'sandbox', 'beauty-in-genomics'].includes(page.slug)
 )
 const assetBase = import.meta.env.BASE_URL.endsWith('/')
   ? import.meta.env.BASE_URL
@@ -198,6 +198,49 @@ const socialImage = Astro.site
       })
 
       syncThemeButton()
+
+      const graphImages = document.querySelectorAll<HTMLImageElement>('.genomics-card-image')
+      if (graphImages.length) {
+        const viewer = document.createElement('dialog')
+        viewer.className = 'figure-viewer'
+        viewer.setAttribute('aria-label', 'Enlarged assembly graph')
+        const closeButton = document.createElement('button')
+        closeButton.type = 'button'
+        closeButton.className = 'figure-viewer-close'
+        closeButton.textContent = 'Close ×'
+        closeButton.setAttribute('aria-label', 'Close enlarged figure')
+        const enlargedImage = document.createElement('img')
+        viewer.append(closeButton, enlargedImage)
+        document.body.append(viewer)
+        let opener: HTMLButtonElement | null = null
+        closeButton.addEventListener('click', () => viewer.close())
+        viewer.addEventListener('click', (event) => {
+          if (event.target === viewer) viewer.close()
+        })
+        viewer.addEventListener('close', () => {
+          document.documentElement.classList.remove('figure-viewer-open')
+          opener?.focus()
+        })
+        graphImages.forEach((image) => {
+          const button = document.createElement('button')
+          button.type = 'button'
+          button.className = 'figure-zoom'
+          button.setAttribute('aria-haspopup', 'dialog')
+          const title = image.closest('article')?.querySelector('h3')?.textContent ?? 'assembly graph'
+          button.setAttribute('aria-label', `Enlarge ${title}`)
+          button.title = 'Click to enlarge'
+          image.before(button)
+          button.append(image)
+          button.addEventListener('click', () => {
+            opener = button
+            enlargedImage.src = image.currentSrc || image.src
+            enlargedImage.alt = image.alt
+            viewer.setAttribute('aria-label', title)
+            viewer.showModal()
+            document.documentElement.classList.add('figure-viewer-open')
+          })
+        })
+      }
 
       document.querySelectorAll('[data-carousel]').forEach((carousel) => {
         const images = JSON.parse(carousel.getAttribute('data-images') ?? '[]')

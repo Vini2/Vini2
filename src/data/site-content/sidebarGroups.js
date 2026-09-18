@@ -21,6 +21,10 @@ export const sidebarGroups = [
       {
         "label": "Sandbox",
         "slug": "sandbox"
+      },
+      {
+        "label": "Beauty in Genomics",
+        "slug": "beauty-in-genomics"
       }
     ]
   },

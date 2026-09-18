@@ -912,6 +912,108 @@ time {
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
 }
 
+.genomics-card-grid {
+  grid-template-columns: minmax(0, 1fr);
+}
+
+.genomics-card {
+  display: grid;
+  grid-template-columns: minmax(0, 2fr) minmax(0, 3fr);
+  align-items: center;
+  gap: 28px;
+}
+
+.genomics-card-copy {
+  min-width: 0;
+}
+
+.genomics-card-copy ol {
+  padding-left: 22px;
+  line-height: 1.7;
+}
+
+.genomics-card .genomics-card-copy a {
+  display: inline;
+  margin: 0;
+  padding: 0;
+  min-height: 0;
+  border: 0;
+  background: none;
+  box-shadow: none;
+  font-size: inherit;
+  overflow-wrap: anywhere;
+  text-decoration: underline;
+}
+
+@media (max-width: 700px) {
+  .genomics-card {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 18px;
+  }
+}
+
+.genomics-card-image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.figure-zoom {
+  display: block;
+  width: 100%;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  cursor: zoom-in;
+}
+
+.figure-zoom:focus-visible,
+.figure-viewer-close:focus-visible {
+  outline: 3px solid var(--paper);
+  outline-offset: 5px;
+}
+
+.figure-viewer-open {
+  overflow: hidden;
+}
+
+.figure-viewer {
+  width: fit-content;
+  max-width: 96vw;
+  max-height: 96dvh;
+  padding: 52px 12px 12px;
+  border: 1px solid var(--line);
+  background: var(--panel-bg);
+  color: var(--paper);
+  box-shadow: 0 24px 80px rgba(0, 0, 0, 0.4);
+}
+
+.figure-viewer::backdrop {
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.figure-viewer img {
+  display: block;
+  width: auto;
+  height: auto;
+  max-width: calc(96vw - 26px);
+  max-height: calc(96dvh - 66px);
+  object-fit: contain;
+}
+
+.figure-viewer-close {
+  position: absolute;
+  top: 8px;
+  right: 12px;
+  min-height: 36px;
+  padding: 6px 12px;
+  border: 1px solid var(--line);
+  background: var(--panel-bg);
+  color: var(--paper);
+  font: inherit;
+  cursor: pointer;
+}
+
 .item-card {
   min-height: 220px;
   padding: 22px;
