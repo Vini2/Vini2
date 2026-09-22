@@ -60,36 +60,44 @@ const base = import.meta.env.BASE_URL.endsWith('/')
     <section class="intro-columns markdown-content" aria-label="Biography and current work">
       <AboutContent />
       <HomeContent />
-    </section>
-
-    <section class="memorial-section" aria-labelledby="yu-lin-memorial-title">
-      <div class="memorial-copy">
+      <section class="memorial-section content-block" aria-labelledby="yu-lin-memorial-title">
         <h2 id="yu-lin-memorial-title">
-          In loving memory of our dear PhD supervisor
+          In Memory of
           <a
             href="https://xuehansheng.github.io/Yu_CV_2022.pdf"
             target="_blank"
             rel="noreferrer"
-          >
-            Dr. Yu Lin
-          </a>
+          >Dr Yu Lin</a>
         </h2>
-      </div>
-      <a
-        class="memorial-image-link"
-        href="https://cgg-anu.github.io/"
-        target="_blank"
-        rel="noreferrer"
-        aria-label="Visit the Computational Genomics Group website"
-      >
-        <img
-          src={`${base}memorial-images/yu-lin-memorial.png`}
-          alt="Memorial tribute image for Dr. Yu Lin"
-          width="1279"
-          height="1279"
-          loading="lazy"
-        />
-      </a>
+        <div class="memorial-body">
+          <div class="memorial-copy">
+            <p>
+              In loving memory of my PhD advisor,
+              <a
+                href="https://users.cecs.anu.edu.au/~u1024708/"
+                target="_blank"
+                rel="noreferrer"
+              >Dr Yu Lin</a>, whose guidance, wisdom, and encouragement continue
+              to inspire me.
+            </p>
+          </div>
+          <a
+            class="memorial-image-link"
+            href="https://cgg-anu.github.io/"
+            target="_blank"
+            rel="noreferrer"
+            aria-label="Visit the Computational Genomics Group website"
+          >
+            <img
+              src={`${base}memorial-images/yu-lin-memorial.png`}
+              alt="Memorial tribute image for Dr. Yu Lin"
+              width="1279"
+              height="1279"
+              loading="lazy"
+            />
+          </a>
+        </div>
+      </section>
     </section>
   </article>
 </SiteLayout>
