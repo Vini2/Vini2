@@ -52,32 +52,6 @@ order: 9
 </section>
 
 <section class="content-block">
-<h2>CLI Projects</h2>
-<div class="card-grid sandbox-project-grid">
-<article class="item-card software-card sandbox-project-card">
-<div class="software-media sandbox-project-media">
-<img class="software-thumb sandbox-project-thumb" src="../software-logos/distribin-mpi-binning.png" alt="distribin MPI binning thumbnail" loading="lazy" />
-</div>
-<h3>distribin</h3>
-<p>A distributed metagenomic binning experiment exploring SLURM array jobs and MPI to run binning across multiple datasets.</p>
-<div class="sandbox-project-actions">
-<a href="https://github.com/Vini2/distribin" target="_blank" rel="noreferrer">View project</a>
-</div>
-</article>
-<article class="item-card software-card sandbox-project-card">
-<div class="software-media sandbox-project-media">
-<img class="software-thumb sandbox-project-thumb sandbox-project-logo" src="../software-logos/checks-logo.png" alt="CheckS logo thumbnail" loading="lazy" />
-</div>
-<h3>CheckS</h3>
-<p>A metagenomics pipeline for checking whether a species is present in NGS reads and assembled contigs using known reference genomes.</p>
-<div class="sandbox-project-actions">
-<a href="https://github.com/Vini2/CheckS" target="_blank" rel="noreferrer">View project</a>
-</div>
-</article>
-</div>
-</section>
-
-<section class="content-block">
 <h2>Coding Challenges</h2>
 <div class="card-grid sandbox-project-grid">
 <article class="item-card software-card sandbox-project-card">
