@@ -9,6 +9,7 @@ order: 5
 <section class="content-block">
 <h2>Highlights</h2>
 <div class="achievement-list">
+
 <article class="achievement-item">
 <div class="achievement-copy">
 <p class="meta">2024</p>
@@ -38,6 +39,7 @@ order: 5
 </div>
 </div>
 </article>
+
 <article class="achievement-item">
 <div class="achievement-copy">
 <p class="meta">2023</p>
@@ -60,6 +62,7 @@ order: 5
 </div>
 </div>
 </article>
+
 <article class="achievement-item">
 <div class="achievement-copy">
 <p class="meta">2023</p>
@@ -87,6 +90,7 @@ order: 5
 </div>
 </div>
 </article>
+
 <article class="achievement-item">
 <div class="achievement-copy">
 <p class="meta">2022</p>
@@ -102,6 +106,7 @@ order: 5
 </div>
 </div>
 </article>
+
 <article class="achievement-item">
 <div class="achievement-copy">
 <p class="meta">2022</p>
@@ -129,6 +134,26 @@ order: 5
 </div>
 </div>
 </article>
+
+<article class="achievement-item">
+<div class="achievement-copy">
+<p class="meta">2018</p>
+<h3>ANU PhD Scholarship (International) and HDR Merit Scholarship</h3>
+<p>I was awarded the Australian National University's PhD Scholarship (International) and HDR Merit Scholarship to support my PhD studies.</p>
+<div class="achievement-links">
+<a href="https://study.anu.edu.au/scholarships/find-scholarship/anu-phd-scholarship" target="_blank" rel="noreferrer">ANU PhD Scholarship</a>
+<a href="https://study.anu.edu.au/scholarships/find-scholarship/anu-hdr-fee-merit-scholarship" target="_blank" rel="noreferrer">ANU HDR Fee Merit Scholarship</a>
+</div>
+</div>
+<div class="achievement-carousel" aria-label="ANU PhD Scholarship (International) and HDR Merit Scholarship images" data-carousel data-images="[{&quot;src&quot;:&quot;../achievement-images/ANU_front.jpg&quot;,&quot;alt&quot;:&quot;ANU PhD Scholarship (International) and HDR Merit Scholarship&quot;,&quot;fit&quot;:&quot;landscape&quot;,&quot;aspectRatio&quot;:&quot;1024 / 750&quot;}]">
+<div class="carousel-frame">
+<div class="carousel-media landscape" data-fit="landscape" style="aspect-ratio: 1024 / 750">
+<img class="carousel-image" src="../achievement-images/ANU_front.jpg" alt="ANU PhD Scholarship (International) and HDR Merit Scholarship" loading="lazy" />
+</div>
+</div>
+</div>
+</article>
+
 <article class="achievement-item">
 <div class="achievement-copy">
 <p class="meta">2018</p>
@@ -155,6 +180,7 @@ order: 5
 </div>
 </div>
 </article>
+
 <article class="achievement-item">
 <div class="achievement-copy">
 <p class="meta">2018</p>
@@ -174,6 +200,7 @@ order: 5
 </div>
 </div>
 </article>
+
 <article class="achievement-item">
 <div class="achievement-copy">
 <p class="meta">2015</p>
@@ -197,5 +224,6 @@ order: 5
 </div>
 </div>
 </article>
+
 </div>
 </section>
