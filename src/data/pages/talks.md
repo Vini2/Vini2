@@ -3,7 +3,7 @@ slug: "talks"
 label: "Talks"
 kicker: "Speaking"
 title: "Talks"
-intro: "Here are some of my selected talks, seminars, and presentations."
+intro: "Here are some of my selected talks and presentations."
 order: 7
 ---
 
@@ -15,7 +15,17 @@ order: 7
 <span class="talk-title">Advances in Microbial Genome Reconstruction and Analysis Using Graph-Based Approaches</span>
 <span class="publication-meta">Invited talk at Genome Informatics, Wellcome Genome Campus, UK, Dec 2026</span>
 </div>
-<a class="talk-slide-link" href="https://coursesandconferences.wellcomeconnectingscience.org/event/genome-informatics-20261202/" target="_blank" rel="noreferrer" aria-label="View conference page for Advances in Microbial Genome Reconstruction and Analysis Using Graph-Based Approaches" title="View conference page">
+<a class="talk-slide-link" href="https://coursesandconferences.wellcomeconnectingscience.org/event/genome-informatics-20261202/" target="_blank" rel="noreferrer" aria-label="View conference page for Genome Informatics 2026" title="View conference page">
+<i class="fa-solid fa-link" aria-hidden="true"></i>
+</a>
+</li>
+
+<li>
+<div class="talk-copy">
+<span class="talk-title">Beyond Linear Genomes: Graph-Aware Clustering of Bacteriophages Across Metagenome</span>
+<span class="publication-meta">Oral presentation at the Australian Bioinformatics And Computational Biology Society Conference (ABACBS 2026), Australia, Nov 2026</span>
+</div>
+<a class="talk-slide-link" href="https://www.abacbs.org/2026" target="_blank" rel="noreferrer" aria-label="View conference page for ABACBS 2026" title="View conference page">
 <i class="fa-solid fa-link" aria-hidden="true"></i>
 </a>
 </li>
