@@ -2,9 +2,10 @@
 slug: "beauty-in-genomics"
 label: "Beauty in Genomics"
 title: "Beauty in Genomics"
-intro: "A collection of assembly graphs from my genomics research, revealing unexpected shapes and patterns in bacterial and phage metagenomes. These figures highlight the visual beauty and complexity of genomic data."
 order: 10
 ---
+
+<p class="lede">A collection of assembly graphs from my genomics research, revealing unexpected shapes and patterns in bacterial and phage metagenomes. These figures highlight the visual beauty and complexity of genomic data. Thanks to <a href="https://rrwick.github.io/Bandage/" target="_blank" rel="noreferrer">Bandage</a> for making these assembly graph visualisations possible.</p>
 
 <section class="content-block">
 <div class="card-grid genomics-card-grid">
@@ -44,6 +45,15 @@ DOI: <a href="https://doi.org/10.1007/978-3-031-04749-7_5" target="_blank" rel="
 </ol>
 <p>This dataset was used to benchmark GraphBin.<br />
 DOI: <a href="https://doi.org/10.1093/bioinformatics/btaa180" target="_blank" rel="noreferrer">10.1093/bioinformatics/btaa180</a></p>
+</div>
+</article>
+<article class="item-card genomics-card">
+<img class="genomics-card-image" src="../genomics-images/assembly-graph-wallpaper.png" alt="Assembly graph wallpaper showing rows of colourful loops, curves, and connected components from a co-assembly of metaviromic samples." width="4000" height="2250" loading="lazy" />
+<div class="genomics-card-copy">
+<h3>IBD virome assembly graph wallpaper</h3>
+<p>This is the assembly graph of a co-assembly of metaviromic samples from the study by <a href="https://doi.org/10.1016/j.cell.2015.01.002" target="_blank" rel="noreferrer">Norman et al, 2015</a>. The data can be found at NCBI BioProject number <a href="https://www.ncbi.nlm.nih.gov/bioproject/PRJEB7772" target="_blank" rel="noreferrer">PRJEB7772</a>. I often use this as the background for my talk slides.</p>
+<p>This dataset was used to benchmark Phables.<br />
+DOI: <a href="https://doi.org/10.1093/bioinformatics/btad586" target="_blank" rel="noreferrer">10.1093/bioinformatics/btad586</a></p>
 </div>
 </article>
 </div>

@@ -515,15 +515,11 @@ time {
 }
 
 .lede {
-  max-width: 760px;
+  max-width: none;
   margin: 22px 0 0;
   color: var(--ink);
   font-size: clamp(1.08rem, 1.6vw, 1.35rem);
   line-height: 1.75;
-}
-
-.hero .lede {
-  max-width: 940px;
 }
 
 .erdos-note {
@@ -668,13 +664,15 @@ time {
   max-width: 860px;
 }
 
-.prose a {
+.prose a,
+.lede a {
   color: var(--accent-strong);
   font-weight: 700;
   text-decoration: none;
 }
 
-.prose a:hover {
+.prose a:hover,
+.lede a:hover {
   color: var(--paper);
 }
 
@@ -922,6 +920,7 @@ time {
 
 .genomics-card-grid {
   grid-template-columns: minmax(0, 1fr);
+  grid-auto-rows: 1fr;
 }
 
 .genomics-card {
