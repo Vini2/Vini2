@@ -12,7 +12,7 @@ order: 7
 <ol class="publication-list talk-list">
 <li>
 <div class="talk-copy">
-<span class="talk-title">Advances in Microbial Genome Reconstruction and Analysis Using Graph-Based Approaches</span>
+<span class="talk-title">What the Assembly Graph Remebers</span>
 <span class="publication-meta">Invited talk at Genome Informatics, Wellcome Genome Campus, UK, Dec 2026</span>
 </div>
 <a class="talk-slide-link" href="https://coursesandconferences.wellcomeconnectingscience.org/event/genome-informatics-20261202/" target="_blank" rel="noreferrer" aria-label="View conference page for Genome Informatics 2026" title="View conference page">
