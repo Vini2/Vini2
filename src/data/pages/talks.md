@@ -12,7 +12,7 @@ order: 7
 <ol class="publication-list talk-list">
 <li>
 <div class="talk-copy">
-<span class="talk-title">What the Assembly Graph Remebers</span>
+<span class="talk-title">What the Assembly Graph Remeber: Graph-Based Methods to Reconstruct Microbial Genomes</span>
 <span class="publication-meta">Invited talk at Genome Informatics, Wellcome Genome Campus, UK, Dec 2026</span>
 </div>
 <a class="talk-slide-link" href="https://coursesandconferences.wellcomeconnectingscience.org/event/genome-informatics-20261202/" target="_blank" rel="noreferrer" aria-label="View conference page for Genome Informatics 2026" title="View conference page">
@@ -20,15 +20,6 @@ order: 7
 </a>
 </li>
 
-<li>
-<div class="talk-copy">
-<span class="talk-title">Beyond Linear Genomes: Graph-Aware Clustering of Bacteriophages Across Metagenome</span>
-<span class="publication-meta">Oral presentation at the Australian Bioinformatics And Computational Biology Society Conference (ABACBS 2026), Australia, Nov 2026</span>
-</div>
-<a class="talk-slide-link" href="https://www.abacbs.org/2026" target="_blank" rel="noreferrer" aria-label="View conference page for ABACBS 2026" title="View conference page">
-<i class="fa-solid fa-link" aria-hidden="true"></i>
-</a>
-</li>
 </ol>
 </section>
 
@@ -98,6 +89,12 @@ order: 7
 <ol class="publication-list talk-list">
 <li>
 <div class="talk-copy">
+<span class="talk-title">Beyond Linear Genomes: Graph-Aware Clustering of Bacteriophages Across Metagenome</span>
+<span class="publication-meta">Australian Bioinformatics And Computational Biology Society Conference (ABACBS 2026), Melbourne, Australia, Nov 2026</span>
+</div>
+</li>
+<li>
+<div class="talk-copy">
 <span class="talk-title">Genome-Resolved Insights into Viral Ecology within Microbial Communities using Phables</span>
 <span class="publication-meta">20th International Symposium on Microbial Ecology (ISME20), Auckland, New Zealand, Aug 2026</span>
 </div>
@@ -126,7 +123,7 @@ order: 7
 <li>
 <div class="talk-copy">
 <span class="talk-title">Phables: from fragmented assemblies to high-quality bacteriophage genomes</span>
-<span class="publication-meta">Australian Bioinformatics And Computational Biology Society Conference (ABACBS 2023), Australia, Dec 2023</span>
+<span class="publication-meta">Australian Bioinformatics And Computational Biology Society Conference (ABACBS 2023), Brisbane, Australia, Dec 2023</span>
 </div>
 <div class="talk-actions">
 <a class="talk-slide-link" href="https://drive.google.com/file/d/1JrpyXgR-eluMzcLsd7H1HBKUlzYKzG1g/view?usp=drive_link" target="_blank" rel="noreferrer" aria-label="View slides for Phables: from fragmented assemblies to high-quality bacteriophage genomes" title="View slides">
