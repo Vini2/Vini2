@@ -55,7 +55,16 @@ order: 8
 <span class="talk-title">SAGC FAME Metagenomics Workshop - Metagenomic Binning</span>
 <span class="publication-meta">South Australian Genomics Centre, and Flinders Accelerator for Microbiome Exploration, Australia, Aug 2022</span>
 </div>
-<a class="talk-slide-link" href="https://drive.google.com/file/d/1pXvLKDe3k_KqUDS7YlJdPiZLbZm6-Orj/view?usp=drive_link" target="_blank" rel="noreferrer" aria-label="View slides for SAGC FAME Metagenomics Workshop - Metagenomic Binning" title="View slides">
+<a class="talk-slide-link" href="https://drive.google.com/file/d/1pXvLKDe3k_KqUDS7YlJdPiZLbZm6-Orj/view?usp=sharing" target="_blank" rel="noreferrer" aria-label="View slides for SAGC FAME Metagenomics Workshop - Metagenomic Binning" title="View slides">
+<i class="fa-solid fa-file-powerpoint" aria-hidden="true"></i>
+</a>
+</li>
+<li>
+<div class="talk-copy">
+<span class="talk-title">SAGC FAME Metagenomics Workshop - Assembly</span>
+<span class="publication-meta">South Australian Genomics Centre, and Flinders Accelerator for Microbiome Exploration, Australia, Aug 2022</span>
+</div>
+<a class="talk-slide-link" href="https://drive.google.com/file/d/11RrilfUPiQhFkOotyKu_Y1bMeqi1wLeY/view?usp=sharing" target="_blank" rel="noreferrer" aria-label="View slides for SAGC FAME Metagenomics Workshop - Assembly" title="View slides">
 <i class="fa-solid fa-file-powerpoint" aria-hidden="true"></i>
 </a>
 </li>
