@@ -89,7 +89,7 @@ order: 7
 <ol class="publication-list talk-list">
 <li>
 <div class="talk-copy">
-<span class="talk-title">Beyond Linear Genomes: Graph-Aware Clustering of Bacteriophages Across Metagenome</span>
+<span class="talk-title">Beyond Linear Genomes: Graph-Aware Clustering of Bacteriophages Across Metagenomes</span>
 <span class="publication-meta">Australian Bioinformatics And Computational Biology Society Conference (ABACBS 2026), Melbourne, Australia, Nov 2026</span>
 </div>
 </li>
