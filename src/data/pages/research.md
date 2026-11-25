@@ -48,6 +48,7 @@ order: 2
 <li>Machine learning on graphs and sequence data</li>
 <li>Scientific data visualisation and web-based analytics</li>
 <li>Scientific software engineering</li>
+<li>Computer vision for biological data</li>
 </ul>
 </section>
 
@@ -106,6 +107,18 @@ order: 2
 <figure class="research-theme-figure">
 <img src="../research-images/condiga-figure.png" alt="ConDiGA taxonomic annotation and metaproteomics workflow overview" loading="lazy" />
 <figcaption>Image source: <a href="https://doi.org/10.1186/s40168-024-01775-3" target="_blank" rel="noreferrer">ConDiGA paper</a></figcaption>
+</figure>
+
+<h3>Computational analysis and morphological characterisation of bacteriophage TEM images</h3>
+<p>My research in this area focuses on developing computer vision and machine learning approaches for the automated analysis and morphological characterisation of bacteriophages from transmission electron microscopy (TEM) images. This includes quantitative morphological measurements, morphotype classification, and image segmentation. I am also interested in integrating morphological, genomic and structural information to better understand bacteriophage diversity.</p>
+<ul>
+<li><a href="https://github.com/Vini2/phagescale" target="_blank" rel="noreferrer">PhageScale</a> is a tool to measure bacteriophage capsid dimensions and tail lengths from TEM images using computer vision and interactive image analysis.</li>
+<li><a href="https://github.com/Vini2/phagemorph" target="_blank" rel="noreferrer">PhageMorph</a> uses deep learning to classify bacteriophage TEM images according to their morphotypes.</li>
+<li><a href="https://github.com/Vini2/phagemetric" target="_blank" rel="noreferrer">PhageMetric</a> is a tool for automated segmentation and morphometric analysis of bacteriophages from TEM images (ongoing).</li>
+</ul>
+<figure class="research-theme-figure">
+<img src="https://raw.githubusercontent.com/Vini2/phagescale/main/images/phagescale_web_app.png" alt="PhageScale web application for measuring bacteriophage capsid dimensions and tail lengths from TEM images" loading="lazy" />
+<figcaption>Image source: <a href="https://github.com/Vini2/phagescale" target="_blank" rel="noreferrer">PhageScale</a></figcaption>
 </figure>
 
 <h3>Visual analytics of biological data</h3>
