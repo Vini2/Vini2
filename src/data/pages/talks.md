@@ -90,7 +90,8 @@ order: 7
 <li>
 <div class="talk-copy">
 <span class="talk-title">Beyond Linear Genomes: Graph-Aware Clustering of Bacteriophages Across Metagenomes</span>
-<span class="publication-meta">Australian Bioinformatics And Computational Biology Society Conference (ABACBS 2026), Melbourne, Australia, Nov 2026</span>
+<span class="publication-meta">Australian Bioinformatics And Computational Biology Society Conference (ABACBS 2026), Melbourne, Australia, Nov 2026</span> 
+<a class="talk-slide-link" href="https://drive.google.com/file/d/1isUGaOvrzQchH2bFnWoxI_eZTlRHn0iI/view?usp=sharing" target="_blank" rel="noreferrer" aria-label="View slides for Beyond Linear Genomes: Graph-Aware Clustering of Bacteriophages Across Metagenomes" title="View slides">
 </div>
 </li>
 <li>
