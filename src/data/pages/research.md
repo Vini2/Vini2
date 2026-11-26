@@ -55,9 +55,11 @@ order: 2
 <section class="content-block">
 <h2>Research Themes and Projects</h2>
 <div class="project-list">
-<p>My research focuses on developing computational methods, graph algorithms, visual analytics approaches, and open-source scientific software for analysing biological data. The projects below are organised by my main research themes.</p>
+<p>My research focuses on developing computational methods, graph algorithms, visual analytics approaches, and open-source scientific software for analysing biological data. The projects below are organised by my main research themes. Expand each theme to explore the related projects, methods, and research highlights.</p>
 
-<h3>Graph-based metagenomic binning, bin-refinement and contamination detection</h3>
+<details class="research-theme-panel">
+<summary><h3>Graph-based metagenomic binning, bin-refinement and contamination detection</h3></summary>
+<div class="research-theme-content">
 <p>Assembly graphs preserve relationships between contigs that are often lost when sequences are analysed in isolation. My work uses this graph structure, together with sequence composition, coverage, and marker-gene information, to improve metagenomic contig binning and the recovery of metagenome-assembled genomes.</p>
 <ul>
 <li><a href="https://doi.org/10.1093/bioinformatics/btaa180" target="_blank" rel="noreferrer">GraphBin</a> introduced assembly graph-based refinement for metagenomic contig binning.</li>
@@ -70,8 +72,12 @@ order: 2
 <img src="../research-images/graphbin-figure.png" alt="GraphBin assembly graph-based metagenomic binning workflow overview" loading="lazy" />
 <figcaption>Image source: <a href="https://doi.org/10.1093/bioinformatics/btaa180" target="_blank" rel="noreferrer">GraphBin paper</a></figcaption>
 </figure>
+</div>
+</details>
 
-<h3>Geometry-based metagenomic binning</h3>
+<details class="research-theme-panel">
+<summary><h3>Geometry-based metagenomic binning</h3></summary>
+<div class="research-theme-content">
 <p>Metagenomic sequences can also be grouped using patterns in nucleotide composition and geometric structure in feature space, where dimensionality can grow rapidly as oligonucleotide size increases. My work in this area explores reference-free binning approaches that efficiently separate contigs in these increasingly high-dimensional compositional feature spaces.</p>
 <ul>
 <li><a href="https://doi.org/10.1016/j.compbiolchem.2022.107734" target="_blank" rel="noreferrer">CH-Bin</a> is a convex hull-based approach for binning metagenomic contigs using composition-derived features.</li>
@@ -80,8 +86,23 @@ order: 2
 <img src="../research-images/ch-bin-figure.png" alt="CH-Bin geometry-based metagenomic binning overview" loading="lazy" />
 <figcaption>Image source: <a href="https://medium.com/computational-biology/composition-based-clustering-of-metagenomic-sequences-4e0b7e01c463" target="_blank" rel="noreferrer">Medium article</a></figcaption>
 </figure>
+</div>
+</details>
 
-<h3>Reconstruction of complete bacteriophage and viral genomes from metagenomes</h3>
+<details class="research-theme-panel">
+<summary><h3>Graph machine learning and representation learning of microbial communities</h3></summary>
+<div class="research-theme-content">
+<p>Microbial community data can be represented as graphs that capture relationships between sequences, organisms, and genomic context. I am interested in graph machine learning and representation learning methods for modelling metagenomic assembly graphs and sequence-derived graph structures.</p>
+<ul>
+<li><a href="https://ojs.aaai.org/index.php/AAAI/article/view/20388" target="_blank" rel="noreferrer">RepBin</a> explores constraint-based graph representation learning for metagenomic binning.</li>
+<li><a href="https://openreview.net/forum?id=vBw8JGBJWj" target="_blank" rel="noreferrer">Unitig-level assembly graph encoding</a> investigates graph representations with heterophilous constraints for contig binning.</li>
+</ul>
+</div>
+</details>
+
+<details class="research-theme-panel">
+<summary><h3>Reconstruction of complete bacteriophage and viral genomes from metagenomes</h3></summary>
+<div class="research-theme-content">
 <p>Viral metagenomic assemblies are often fragmented and difficult to resolve. I develop graph-based approaches for reconstructing high-quality and contiguous bacteriophage and viral genomes using assembly graphs, flow network models and integer linear programming.</p>
 <ul>
 <li><a href="https://github.com/Vini2/phables" target="_blank" rel="noreferrer">Phables</a> resolves bacteriophage genomes from fragmented viral metagenomic assemblies using assembly graphs and flow decomposition.</li>
@@ -91,15 +112,12 @@ order: 2
 <img src="../research-images/phables-figure.png" alt="Phables workflow and bacteriophage genome reconstruction overview" loading="lazy" />
 <figcaption>Image source: <a href="https://doi.org/10.1093/bioinformatics/btad586" target="_blank" rel="noreferrer">Phables paper</a></figcaption>
 </figure>
+</div>
+</details>
 
-<h3>Graph machine learning and representation learning of microbial communities</h3>
-<p>Microbial community data can be represented as graphs that capture relationships between sequences, organisms, and genomic context. I am interested in graph machine learning and representation learning methods for modelling metagenomic assembly graphs and sequence-derived graph structures.</p>
-<ul>
-<li><a href="https://ojs.aaai.org/index.php/AAAI/article/view/20388" target="_blank" rel="noreferrer">RepBin</a> explores constraint-based graph representation learning for metagenomic binning.</li>
-<li><a href="https://openreview.net/forum?id=vBw8JGBJWj" target="_blank" rel="noreferrer">Unitig-level assembly graph encoding</a> investigates graph representations with heterophilous constraints for contig binning.</li>
-</ul>
-
-<h3>Taxonomic annotation, metaproteomics, and functional interpretation</h3>
+<details class="research-theme-panel">
+<summary><h3>Taxonomic annotation, metaproteomics, and functional interpretation</h3></summary>
+<div class="research-theme-content">
 <p>Genome reconstruction is most useful when it supports downstream biological interpretation. I work on methods that connect metagenomic data with taxonomic annotation, protein sequence database construction, and metaproteomic analysis.</p>
 <ul>
 <li><a href="https://github.com/metagentools/ConDiGA" target="_blank" rel="noreferrer">ConDiGA</a> is a contigs directed gene annotation pipeline for building accurate protein sequence databases from metagenomic data.</li>
@@ -108,8 +126,12 @@ order: 2
 <img src="../research-images/condiga-figure.png" alt="ConDiGA taxonomic annotation and metaproteomics workflow overview" loading="lazy" />
 <figcaption>Image source: <a href="https://doi.org/10.1186/s40168-024-01775-3" target="_blank" rel="noreferrer">ConDiGA paper</a></figcaption>
 </figure>
+</div>
+</details>
 
-<h3>Computational analysis and morphological characterisation of bacteriophage TEM images</h3>
+<details class="research-theme-panel">
+<summary><h3>Computational analysis and morphological characterisation of bacteriophage TEM images</h3></summary>
+<div class="research-theme-content">
 <p>My research in this area focuses on developing computer vision and machine learning approaches for the automated analysis and morphological characterisation of bacteriophages from transmission electron microscopy (TEM) images. This includes quantitative morphological measurements, morphotype classification, and image segmentation. I am also interested in integrating morphological, genomic and structural information to better understand bacteriophage diversity.</p>
 <ul>
 <li><a href="https://github.com/Vini2/phagescale" target="_blank" rel="noreferrer">PhageScale</a> is a tool to measure bacteriophage capsid dimensions and tail lengths from TEM images using computer vision and interactive image analysis.</li>
@@ -120,22 +142,34 @@ order: 2
 <img src="https://raw.githubusercontent.com/Vini2/phagescale/main/images/phagescale_web_app.png" alt="PhageScale web application for measuring bacteriophage capsid dimensions and tail lengths from TEM images" loading="lazy" />
 <figcaption>Image source: <a href="https://github.com/Vini2/phagescale" target="_blank" rel="noreferrer">PhageScale</a></figcaption>
 </figure>
+</div>
+</details>
 
-<h3>Visual analytics of biological data</h3>
+<details class="research-theme-panel">
+<summary><h3>Visual analytics of biological data</h3></summary>
+<div class="research-theme-content">
 <p>Complex biological datasets often need to be explored visually as well as computationally. I build interactive and browser-based tools for inspecting graph-based results, comparing outputs, and supporting visual interpretation of bioinformatics analyses.</p>
 <ul>
 <li><a href="https://github.com/metagentools/graphbin-viz" target="_blank" rel="noreferrer">GraphBin-Viz</a> provides interactive visual analytics for comparing metagenomic binning results on assembly graphs.</li>
 <li><a href="https://vini2.github.io/phagescale/" target="_blank" rel="noreferrer">PhageScale</a> allows the measurement of dimensions of bacteriophages (capsid size, tail length, etc.) from transmission electron microscopy (TEM) images.</li>
 </ul>
+</div>
+</details>
 
-<h3>Scientific workflows</h3>
+<details class="research-theme-panel">
+<summary><h3>Scientific workflows</h3></summary>
+<div class="research-theme-content">
 <p>Bioinformatics analyses depend on computational workflows that need to be reproducible, inspectable, and practical to run. My earlier work includes systems for designing, executing, monitoring, and managing analysis workflows.</p>
 <ul>
 <li><a href="https://github.com/anuradhawick/bio-workflow" target="_blank" rel="noreferrer">An interactive workflow solution for bioinformatics analyses</a> explored web-based workflow creation for biologists and bioinformaticians with different levels of programming expertise.</li>
 <li><a href="https://github.com/anuradhawick/pipe-line-monitor" target="_blank" rel="noreferrer">Pipeline Monitor</a> supports graph-like execution of command pipelines in high-performance computing environments.</li>
 </ul>
+</div>
+</details>
 
-<h3>Change detection and notification of webpages</h3>
+<details class="research-theme-panel">
+<summary><h3>Change detection and notification of webpages</h3></summary>
+<div class="research-theme-content">
 <p>My undergraduate research explored how to detect and track changes across distributed web-based information sources, then notify users when meaningful updates occur.</p>
 <ul>
 <li><a href="https://dl.acm.org/doi/abs/10.1145/3369876" target="_blank" rel="noreferrer">Change detection in distributed digital collections</a> is a review paper on approaches for detecting, tracking, and reporting changes in distributed digital collections and web pages.</li>
@@ -145,5 +179,7 @@ order: 2
 <img src="../research-images/change-detection-figure.png" alt="Organization of the change detection and notification survey" loading="lazy" />
 <figcaption>Image source: <a href="https://ws-dl.blogspot.com/2020/02/2020-02-14-acm-computing-surveys.html" target="_blank" rel="noreferrer">WS-DL blog announcement</a></figcaption>
 </figure>
+</div>
+</details>
 </div>
 </section>

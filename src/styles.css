@@ -860,7 +860,61 @@ time {
   line-height: 1.35;
 }
 
-.project-list h3:first-child {
+.research-theme-panel {
+  margin-top: 14px;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: var(--panel-bg);
+}
+
+.research-theme-panel > summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 20px;
+  border-radius: 12px;
+  cursor: pointer;
+  list-style: none;
+}
+
+.research-theme-panel > summary::-webkit-details-marker {
+  display: none;
+}
+
+.research-theme-panel > summary::after {
+  content: '';
+  flex: 0 0 9px;
+  width: 9px;
+  height: 9px;
+  margin-right: 4px;
+  border-right: 2px solid var(--accent);
+  border-bottom: 2px solid var(--accent);
+  transform: rotate(45deg);
+}
+
+.research-theme-panel[open] > summary::after {
+  transform: rotate(225deg);
+}
+
+.research-theme-panel > summary:hover {
+  background: var(--accent-soft);
+}
+
+.research-theme-panel > summary:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+}
+
+.research-theme-panel > summary h3 {
+  margin: 0;
+}
+
+.research-theme-content {
+  padding: 0 20px 20px;
+}
+
+.research-theme-content > :first-child {
   margin-top: 0;
 }
 
